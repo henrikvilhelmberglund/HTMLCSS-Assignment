@@ -3,13 +3,19 @@
   import "../app.postcss";
   import { page } from "$app/stores";
   import AHeader from "$lib/AHeader.svelte"
+  function cleanTitle() {
+    let title = $page.url.pathname.replaceAll("/", "");
+    title = title.replaceAll("-", " ")
+    title = title[0].toUpperCase() + title.substring(1)
+    return title
+  }
 </script>
 
 <svelte:head>
   {#if $page.url.pathname==="/"}
   <title>Ankademin Cafe</title>
   {:else}
-  <title>a</title>
+  <title>Ankademin Cafe - {cleanTitle()}</title>
   {/if}
 </svelte:head>
 
