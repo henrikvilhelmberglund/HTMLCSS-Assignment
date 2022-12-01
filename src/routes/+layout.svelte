@@ -19,7 +19,7 @@
   {/if}
 </svelte:head>
 
-<nav>
+<nav class="flex justify-center gap-4">
   <AHeader href="/">Home</AHeader>
   <AHeader href="/menu">Menu</AHeader>
   <AHeader href="/contact">Contact</AHeader>
