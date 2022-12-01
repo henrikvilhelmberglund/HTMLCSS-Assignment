@@ -18,6 +18,6 @@
   <AHeader href="/menu">Menu</AHeader>
   <AHeader href="/contact">Contact</AHeader>
   <AHeader href="/reviews">Reviews</AHeader>
-  <AHeader href="/about">About</AHeader>
+  <AHeader href="/about-us">About</AHeader>
 </nav>
 <slot />
