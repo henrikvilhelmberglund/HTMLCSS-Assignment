@@ -2,6 +2,7 @@
   import "../app.scss";
   import "../app.postcss";
   import { page } from "$app/stores";
+  import { base } from "$app/paths";
   import AHeader from "$lib/AHeader.svelte";
   function cleanTitle() {
     let title = $page.url.pathname.replaceAll("/", "");
@@ -20,10 +21,10 @@
 </svelte:head>
 
 <nav class="flex justify-center gap-4">
-  <AHeader href="/">Home</AHeader>
-  <AHeader href="/menu">Menu</AHeader>
-  <AHeader href="/contact">Contact</AHeader>
-  <AHeader href="/reviews">Reviews</AHeader>
-  <AHeader href="/about-us">About us</AHeader>
+  <AHeader href="{base}/">Home</AHeader>
+  <AHeader href="{base}/menu">Menu</AHeader>
+  <AHeader href="{base}/contact">Contact</AHeader>
+  <AHeader href="{base}/reviews">Reviews</AHeader>
+  <AHeader href="{base}/about-us">About us</AHeader>
 </nav>
 <slot />
