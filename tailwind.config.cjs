@@ -3,9 +3,13 @@ const forms = require("@tailwindcss/forms");
 
 const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
-
+  mode: "jit",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        logo: ["Cherry Swash"],
+      },
+    },
   },
 
   plugins: [forms, daisyui],
