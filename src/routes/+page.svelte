@@ -1,14 +1,17 @@
-<div class="nicediv">
-  <h1>Welcome to SvelteKit</h1>
-  <p class="bg-emerald-500">
-    Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-  </p>
-</div>
+<script>
+  import P from "$lib/P.svelte";
+  import Motto from "$lib/Motto.svelte";
+</script>
 
-<style lang="scss">
-  .nicediv {
-    h1 {
-      color: red;
-    }
-  }
+<main class="flex flex-col items-center justify-center h-[80vh] bg-gradient-to-b from-white via-orange-300 to-emerald-300">
+  <Motto />
+
+  <P>
+    Ankademin Cafe is a duck cafe where you can have a great time mingling with
+    our ducks or enjoy some Swedish fika.
+  </P>
+  <P>We provide the finest ducks and the tastiest cookies. Welcome!</P>
+</main>
+
+<style>
 </style>
