@@ -5,20 +5,16 @@
   import { base } from "$app/paths";
   import AHeader from "$lib/AHeader.svelte";
   import Logo from "$lib/Logo.svelte";
+  import Footer from "$lib/Footer.svelte";
+  import Header from "$lib/Header.svelte";
 </script>
 
 <svelte:head>
   <title>{$page.data.title}</title>
 </svelte:head>
 
-<header>
-  <Logo />
-  <nav class="flex justify-center gap-4">
-    <AHeader href="{base}/">Home</AHeader>
-    <AHeader href="{base}/menu">Menu</AHeader>
-    <AHeader href="{base}/contact">Contact</AHeader>
-    <AHeader href="{base}/reviews">Reviews</AHeader>
-    <AHeader href="{base}/about-us">About us</AHeader>
-  </nav>
-</header>
+<Header />
+
 <slot />
+
+<Footer />
