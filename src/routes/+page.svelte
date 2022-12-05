@@ -12,7 +12,7 @@
 
   <P type="index">
     Ankademin Cafe is a duck cafe where you can have a great time mingling with
-    our ducks or enjoy some Swedish fika.
+    our ducks and enjoying some Swedish fika.
   </P>
   <P type="index"
     >We provide the finest ducks and the tastiest cookies. Welcome!</P>
