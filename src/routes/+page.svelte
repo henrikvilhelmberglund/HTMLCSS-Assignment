@@ -4,7 +4,7 @@
   import { base } from "$app/paths";
 </script>
 
-<main class="flex flex-col items-center justify-between h-[70vh] bg-emerald-900">
+<main class="flex flex-col items-center justify-between bg-emerald-900">
   <img
     src="{base}/images/ankademin-cafe/ankademin_cafe_interior.jpg"
     alt="Inside of Ankademin Cafe" />
