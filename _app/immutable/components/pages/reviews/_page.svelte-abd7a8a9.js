@@ -1,1 +1,0 @@
-import{S as n,i,s as o,q as c,r as l,b as u,B as s,h as f}from"../../../chunks/index-7dff70fd.js";function m(a){let t;return{c(){t=c("reviews")},l(e){t=l(e,"reviews")},m(e,r){u(e,t,r)},p:s,i:s,o:s,d(e){e&&f(t)}}}class d extends n{constructor(t){super(),i(this,t,null,m,o,{})}}export{d as default};
