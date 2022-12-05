@@ -3,7 +3,7 @@
   import Motto from "$lib/Motto.svelte";
 </script>
 
-<main class="flex flex-col items-center justify-center h-[80vh] bg-gradient-to-b from-white via-orange-300 to-emerald-300">
+<main class="flex flex-col items-center justify-center h-[80vh]">
   <Motto />
 
   <P>
