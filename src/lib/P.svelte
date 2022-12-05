@@ -1,3 +1,13 @@
-<p class="p-4">
-  <slot></slot>
-</p>
+<script>
+  export let type;
+</script>
+
+{#if type === "index"}
+  <p class="p-4 bg-emerald-800 text-emerald-200 border-y border-solid border-black">
+    <slot />
+  </p>
+{:else if type === "other"}
+  <p class="p-4">
+    <slot />
+  </p>
+{/if}
