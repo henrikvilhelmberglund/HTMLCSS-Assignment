@@ -1,6 +1,7 @@
 <script>
   import P from "$lib/P.svelte";
   import Motto from "$lib/Motto.svelte";
+  import ButtonA from "$lib/ButtonA.svelte";
   import { base } from "$app/paths";
 </script>
 
@@ -16,6 +17,8 @@
   </P>
   <P type="index"
     >We provide the finest ducks and the tastiest cookies. Welcome!</P>
+
+  <ButtonA type="menu" />
 </main>
 
 <style>
