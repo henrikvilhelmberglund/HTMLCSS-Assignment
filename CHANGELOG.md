@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.2...v0.0.3) (2022-12-06)
+
+
+### Features
+
+* :art: center motto text with padding ([406118b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/406118bb5602fcdf987eab3152f31863179e6aa8))
+* :art: change gradient color in Logo component ([39dcbc4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/39dcbc4905305e399af82b1546c917034c035fa2))
+* :art: update AHeader hover/active style ([52e5a76](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/52e5a7630576f9ef741c6d843017e9ec8f572c57))
+* :fire: use href prop instead of thisPage ([5b9f3f5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5b9f3f5aa4ad9b0545a2d7292d254c99d7a57841))
+* :sparkles: add another A component ([d7149a2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d7149a22a0982db03c8c034f2f5bfc010978358e))
+* :sparkles: add cafe interior picture (AI generated) ([56f5ed5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/56f5ed56e4ba0ac018b366fddde636760f89bdf2))
+* :sparkles: add font for the logo with fontsource ([f400c1f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f400c1facfdc2defdb5e4bba8d2f9177189ca31d))
+* :sparkles: add footer with links, logo and copyright info ([549139a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/549139ac5e56cf10ec334d40f0297639bfa52b01))
+* :sparkles: add if statement in P component and type prop ([d0dab63](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d0dab63b241e8c4a952713e06edb498d20007bd8))
+* :sparkles: add image to main index ([c0cd402](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c0cd402852281728976f147f6c86612680e9caa2))
+* :sparkles: add index page ([d7fe549](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d7fe54938f4a6b320959d22f8cc7b44055b67edf))
+* :sparkles: add logo component ([d100a8b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d100a8bcf7db2afb795b9f5fca413e30f06f21fc))
+* :sparkles: add Motto and P components ([989a498](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/989a498b90d02565d03c1387eb06e24bb42c624f))
+* :sparkles: add small border in Motto (and P) components ([571fe9f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/571fe9f67bb1f85e6a2361115b995a4894c66c87))
+* :sparkles: break out header in layout into Header component ([025b8f6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/025b8f63ae9a76a6ed74c947bae293b9b88b0e4c))
+* :sparkles: put header in a header tag ([50fa983](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/50fa9832d4aeaa3777cba0b2d6c1bf1c755f8796))
+* :sparkles: use only href prop in layout ([e6cdf66](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e6cdf66bdf055ee7877538e78319a66213ee2d07))
+
+
+### Bug Fixes
+
+* :art: better description ([d1a3956](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d1a3956557e8ad8eed7151553e4edb4437a646a8))
+* :art: remove gradient from page (use colored blocks instead) ([2a19eac](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/2a19eacd0ded3c7b19dcf7fb748a39d210cc9bc5))
+* :bug: remove doubled borders ([9739f95](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9739f953130e16ce64602158d806b06a234d77c8))
+* :bug: remove fixed height ([20f9303](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/20f93033bde33d656fc393be4be43e25755ffdf2))
+* :fire: use components in main layout ([cf8da82](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/cf8da82d90fe98378e832e0cf2996ebf58dfa446))
+
 ### 0.0.2 (2022-12-01)
 
 
