@@ -6,7 +6,7 @@
 
 <header>
   <Logo />
-  <nav aria-label="primary-navigation" class="flex justify-center gap-4">
+  <nav aria-label="primary-navigation" class="flex justify-between">
     <AHeader href="{base}/">Home</AHeader>
     <AHeader href="{base}/menu">Menu</AHeader>
     <AHeader href="{base}/contact">Contact</AHeader>
