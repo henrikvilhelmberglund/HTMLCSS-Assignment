@@ -1,4 +1,3 @@
-const daisyui = require("daisyui");
 const forms = require("@tailwindcss/forms");
 
 const config = {
