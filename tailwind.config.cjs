@@ -12,7 +12,7 @@ const config = {
     },
   },
 
-  plugins: [forms, daisyui],
+  plugins: [forms],
 };
 
 module.exports = config;
