@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.3...v0.0.4) (2022-12-06)
+
+
+### Features
+
+* :art: update components ([5f09184](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5f09184941dc655c97c2f573584085b79198a33f))
+* :memo: add TODO.md ([ddc9673](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ddc96739bb682b4cda0f7642678ad7ad9270cc7d))
+* :sparkles: add (now broken) card component for the menu items, TODO: fix styling ([372e06f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/372e06f8933a9005867a06ce2ee4c5b57077a060))
+* :sparkles: add call to action button ([33ba151](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/33ba151f15b02240780356c83ecc4210d61accac))
+* :sparkles: add menu page with some placeholder data and (now) broken styling ([b7e0b43](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b7e0b436f87e6fe295a65df1ac99b349408ef4cc))
+
+
+### Bug Fixes
+
+* :fire: remove daisyUI (too op) ([59a5f70](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/59a5f70d47f1669f40cc1118392449bf10c3025b))
+* :fire: remove require daisyui line ([3385764](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3385764cc98c8d58172cc5d1e61e05441f05cea4))
+
 ### [0.0.3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.2...v0.0.3) (2022-12-06)
 
 
