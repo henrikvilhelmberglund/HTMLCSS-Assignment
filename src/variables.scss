@@ -1,1 +1,10 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
+
+$sassy-duck-color: #ff94ad;
+
+@mixin desc {
+  color: rgb(255, 141, 141);
+  font-size: 1rem;
+  font-style: italic;
+  padding: 1rem 0;
+}
