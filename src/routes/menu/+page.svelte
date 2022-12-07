@@ -9,21 +9,21 @@
       items: [
         {
           name: "Lorem",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_sweets_0.jpg",
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Ipsum",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_sweets_1.jpg",
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Dolor",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_sweets_2.jpg",
           alt: "",
           desc: "",
           price: "20:-",
@@ -35,21 +35,21 @@
       items: [
         {
           name: "Lorem",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_drink_0.jpg",
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Ipsum",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_drink_1.jpg",
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Dolor",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_drink_2.jpg",
           alt: "",
           desc: "",
           price: "20:-",
@@ -61,21 +61,21 @@
       items: [
         {
           name: "Lorem",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_lunch_0.jpg",
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Ipsum",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_lunch_1.jpg",
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Dolor",
-          src: "/images/.jpg",
+          src: "/images/menu/menu_lunch_2.jpg",
           alt: "",
           desc: "",
           price: "20:-",
@@ -98,6 +98,7 @@
     Our cafe is very popular so if possible book a time slot to make sure that
     we will be able to provide the best experience.</P>
 
+  <!-- The link just below is for showing off the error page and isn't a valid route! -->
   <ButtonA type="book" />
 
   <div class="alert alert-info shadow-lg m-4">
