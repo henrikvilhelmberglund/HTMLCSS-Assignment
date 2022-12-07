@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.4...v0.0.5) (2022-12-07)
+
+
+### Features
+
+* :art: update error page ([1ecf2da](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1ecf2daa75bd0cc42edd47b4dec2c4973f535048))
+* :art: update error page further ([0daee5c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0daee5c3a307e5ae9340a3cf5497178a9cae5aed))
+* :sparkles: add a beautiful(?) logo in the logo component ([3370d45](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3370d459895ac14501e1b5baed0f727dd46ae00f))
+* :sparkles: add flex wrap to header and footer because of the additional link ([82658e6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/82658e62b50d856d404a247b247934df8873433c))
+* :sparkles: add images to the menu (still needs cards with styling) ([b0d390c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b0d390cafa2b9f93824e285280688132f7f4164e))
+* :sparkles: add sassy ducks page that uses SCSS ([326329a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/326329af454fa26a2908d1ce65c9417f0f22aa81))
+* :sparkles: add various images (all AI generated) ([6b7a658](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6b7a658dba209b5b32f191b9acc4806d231b007c))
+* :sparkles: one more image ([467932b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/467932be057a0f2859b0901fab5fe368b00b443a))
+
+
+### Bug Fixes
+
+* :art: decrease padding in the motto component ([8eb6c2a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8eb6c2abf92b0e065f5f76ef64276e6f62356d40))
+* :art: fix styling for the ButtonA component (will probably make more changes later) ([3a4fff9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3a4fff998cc9a7d0e0c970068528cef03bd4c52b))
+* :art: update ButtonA component ([7ddcd5a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7ddcd5a08543677011b8b54c6abc3d9a0f50adb5))
+
 ### [0.0.4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.3...v0.0.4) (2022-12-06)
 
 
