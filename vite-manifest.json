@@ -8,7 +8,7 @@
     "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-b763b1e3.js",
+    "file": "_app/immutable/start-5cb8eb4b.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -128,7 +128,7 @@
     ]
   },
   "src/routes/sassy-ducks/+page.svelte": {
-    "file": "_app/immutable/components/pages/sassy-ducks/_page.svelte-55f70bac.js",
+    "file": "_app/immutable/components/pages/sassy-ducks/_page.svelte-d1bec25e.js",
     "src": "src/routes/sassy-ducks/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -136,7 +136,7 @@
       "_paths-6cd3a76e.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-405c7bac.css"
+      "_app/immutable/assets/_page-4449bd9e.css"
     ]
   },
   "src/routes/+layout.js": {
@@ -349,7 +349,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/10.js": {
-    "file": "_app/immutable/chunks/10-b96a0de1.js",
+    "file": "_app/immutable/chunks/10-2827d25c.js",
     "src": ".svelte-kit/generated/nodes/10.js",
     "isDynamicEntry": true,
     "imports": [
@@ -361,7 +361,7 @@
     "src": "src/routes/+layout.css"
   },
   "src/routes/sassy-ducks/+page.css": {
-    "file": "_app/immutable/assets/_page-405c7bac.css",
+    "file": "_app/immutable/assets/_page-4449bd9e.css",
     "src": "src/routes/sassy-ducks/+page.css"
   }
 }
