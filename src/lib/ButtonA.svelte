@@ -13,4 +13,9 @@
     href="{base}/menu/book"
     class="transition-all bg-orange-400 font-thin text-3xl border-2 border-orange-700 rounded-lg p-2
   hover:bg-orange-300">Book a time slot</a>
+{:else if type === "employees"}
+  <a
+    href="{base}/about-us/employees"
+    class="transition-all bg-orange-400 font-thin text-3xl border-2 border-orange-700 rounded-lg p-2
+  hover:bg-orange-300">Employees page</a>
 {/if}
