@@ -15,7 +15,7 @@
   {:else if i === 1}
     <a href="{base}/{url}/">{base}{url}/</a>
   {:else if i === 2}
-    <a href="{base}{url}">{base}{url}/</a>
+    <a href="{base}/{url}">{base}{url}/</a>
   {/if}
 {/each}
 
