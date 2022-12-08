@@ -5,6 +5,7 @@
 
 <!-- {$page.url.pathname} -->
 <!-- {$page.url.pathname.split("/")} -->
+{$page.url.pathname.split("/")}
 {#each $page.url.pathname.split("/") as url, i}
   {#if i === 0}
     {#if $page.url.pathname === "/"}
