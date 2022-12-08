@@ -2,6 +2,45 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.5...v0.0.6) (2022-12-08)
+
+
+### Features
+
+* :art: change order of links ([1a1a47a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1a1a47afb77725684ad9e9c7c6f31f9317bc0254))
+* :art: change root CSS to main (to avoid global) ([90267a1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/90267a1c2fb852dfd5b67358e41ce7a503e34281))
+* :art: change swipe text color ([8c5c623](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8c5c623b57a77f622efae29bd938de18a737e5cc))
+* :art: edit card styling (more inc) ([b77f665](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b77f6657ac64f3b909162dd7135a273dc46c8fa4))
+* :sparkles: add a few reviews ([30a1a8c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/30a1a8c597052c09a30f89380188d49dc7cd8cb1))
+* :sparkles: add about page ([335f3bf](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/335f3bfdb0f1d3891f446c4b5e6cb1372c9e7c49))
+* :sparkles: add breadcrumbs in layout ([a6ac79e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a6ac79eda4be2caf7a257babe648747d28cb9fc0))
+* :sparkles: add contact page (WIP) ([48126ca](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/48126cafb2b01e182f414affb89501f059db0802))
+* :sparkles: add employees if statement in ButtonA component ([126cd51](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/126cd51d90632ae89b7a19d120cf3efb0ee20966))
+* :sparkles: add employees page TODO: improve styling ([2c605e9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/2c605e91eb61158130aca3ab282c3a4ea9496dc9))
+* :sparkles: add EmployeesItem component TODO: improve styling ([9e4c082](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9e4c0820dfe6a08114d02df0f88b30a7837428fa))
+* :sparkles: add history if statement in P component ([54f6d5d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/54f6d5de280fdcb5591ba531fb4e1e6d7f7680b7))
+* :sparkles: add jpg version of logo to avoid build bug ([9badd62](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9badd629a7d669d4af441e8ccc122ee9aa009b16))
+* :sparkles: add Review component (WIP) ([ff06e20](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ff06e2077a81afe619854f29830870cbe2c34d79))
+* :sparkles: add review page (WIP) ([2234f0d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/2234f0d0050336a95f356b3583a85f7244e19914))
+* :sparkles: add star svg ([8ddaab9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8ddaab9a83cb6bf392e000457c469aef9660d502))
+* :sparkles: add SVG stuff + half star logic ([eae40c6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/eae40c6ebffa7450f2cca37565eb99be27fe40f5))
+* :sparkles: debug:breadcrumbs ([984014d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/984014d9d9b7f9803fc031b8301d0e6014e1e555))
+
+
+### Bug Fixes
+
+* :bug: add {base} to fix building ([731183b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/731183bc1f9876e51f2859904b8435655f604d3b))
+* :bug: change P _class prop to have default of "" ([d9817b2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d9817b26785300effa80c264f59cb0a9eef2cf2a))
+* :bug: debugging ([8183ec3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8183ec321bbac250a0b013800463e317a0d04211))
+* :bug: debugging ([a915db0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a915db0ec81259666cfdd78297930f735caa3d3c))
+* :bug: debugging breadcrumbs (problem with base path) ([230ce55](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/230ce550e8b232e76b5d31e0d533f7bdf2bda226))
+* :bug: fix 404 in employees page ([a83e411](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a83e411ef06e08ba53accfc4c148b5a5fff42f26))
+* :bug: fix paths in header/footer ([ace8bef](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ace8beffc819156af1275068606f068d07291957))
+* :bug: fix star count ([95bf38e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/95bf38e8eaab87756d92e6b5b8fab3cc33fa8c88))
+* :bug: remove empty srcset attribute (whoops) ([b9ca379](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b9ca3791097838c544a4bf7c75ee95f28b7b6cee))
+* :bug: trailing slash wasn't allowed, to be continued! ([56224fb](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/56224fbba77328ce8cf38e96f5a322aceddabbf1))
+* :bug: try to fix build errors ([944e3a2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/944e3a2b0f8d12d8080d6826f8ee434e5fab18a8))
+
 ### [0.0.5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.4...v0.0.5) (2022-12-07)
 
 
