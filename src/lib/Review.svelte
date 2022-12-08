@@ -5,10 +5,10 @@
   export let desc;
 </script>
 
-<article class="flex flex-col border border-solid border-black p-4">
+<article class="flex flex-col border-t border-solid border-black p-4">
   <p class="text-xl">{username}</p>
   <section class="flex flex-row">
-    {#each Array(score) as _, i}
+    {#each Array(score+1) as _, i}
       {#if i !== 0 && i % 2 === 0}
         <svg
           xmlns="http://www.w3.org/2000/svg"
