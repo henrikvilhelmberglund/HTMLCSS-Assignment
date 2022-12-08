@@ -101,7 +101,7 @@
 
   <ButtonA type="book" />
 
-  <div class="alert alert-info shadow-lg m-4">
+  <div class="bg-emerald-500 w-full shadow-lg m-4">
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
