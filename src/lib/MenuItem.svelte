@@ -7,10 +7,11 @@
   import { base } from "$app/paths";
 </script>
 
-<article class="card lg:card-side bg-base-100 shadow-xl m-2">
-  <figure><img {base} {src} {alt} /></figure>
+<article
+  class="card lg:card-side bg-base-100 shadow-xl m-2 bg-emerald-300 flex flex-col rounded">
+  <h3 class="card-title text-center text-2xl">{name}</h3>
+  <figure><img {base} {src} {alt} class="w-64" /></figure>
   <div class="card-body">
-    <h3 class="card-title">{name}</h3>
     <p>{desc}</p>
     <div class="card-actions justify-end">
       <button class="btn btn-primary">{price}</button>
