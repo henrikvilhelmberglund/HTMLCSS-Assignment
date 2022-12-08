@@ -34,21 +34,23 @@
   ];
 </script>
 
-<h1>Sassy Ducks</h1>
-<p>
-  On this page we display photos of sassy ducks sent in by our customers. Thank
-  you for sending them in!
-</p>
+<main>
+  <h1>Sassy Ducks</h1>
+  <p>
+    On this page we display photos of sassy ducks sent in by our customers.
+    Thank you for sending them in!
+  </p>
 
-{#each sassyDucks as sassyDuck}
-  <article class="sassy-container">
-    <h2>{sassyDuck.name}</h2>
-    <img src="{base}{sassyDuck.src}" alt={sassyDuck.alt} srcset="" />
-    <p>{sassyDuck.desc}</p>
-  </article>
-{/each}
+  {#each sassyDucks as sassyDuck}
+    <article class="sassy-container">
+      <h2>{sassyDuck.name}</h2>
+      <img src="{base}{sassyDuck.src}" alt={sassyDuck.alt} srcset="" />
+      <p>{sassyDuck.desc}</p>
+    </article>
+  {/each}
 
-<p>Again, thank you for your contributions!</p>
+  <p>Again, thank you for your contributions!</p>
+</main>
 
 <!-- 
   below is same thing as making a .scss file and importing it in head (like a normal CSS file) 
@@ -65,7 +67,7 @@
     color: $sassy-duck-color;
     padding: 1rem;
   }
-  :root {
+  main {
     background-color: rgb(0, 0, 0);
   }
 
