@@ -17,7 +17,7 @@ const config = {
       strict: true,
     }),
     paths: {
-      base: dev ? "" : "/HTMLCSS-Assignment/",
+      base: dev ? "" : "/HTMLCSS-Assignment",
     },
   },
   vitePlugin: {
