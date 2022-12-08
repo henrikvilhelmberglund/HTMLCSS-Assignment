@@ -76,7 +76,7 @@
           id="employee{i}"
           value={i}
           bind:group={currentValue} />
-        <img src={employee.src} alt={employee.alt} class="w-24 rounded-full" />
+        <img src={base}{employee.src} alt={employee.alt} class="w-24 rounded-full" />
       </label>
     {/each}
   </div>
