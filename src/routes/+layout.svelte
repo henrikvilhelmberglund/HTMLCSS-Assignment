@@ -7,6 +7,7 @@
   import Logo from "$lib/Logo.svelte";
   import Footer from "$lib/Footer.svelte";
   import Header from "$lib/Header.svelte";
+  import Breadcrumbs from "$lib/Breadcrumbs.svelte";
 </script>
 
 <svelte:head>
@@ -14,6 +15,7 @@
 </svelte:head>
 
 <Header />
+<Breadcrumbs />
 
 <slot />
 
