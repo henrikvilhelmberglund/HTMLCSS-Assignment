@@ -1,6 +1,6 @@
 <script>
   export let type;
-  export let _class;
+  export let _class = "";
 </script>
 
 {#if type === "index"}
