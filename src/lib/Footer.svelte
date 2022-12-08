@@ -6,7 +6,7 @@
 <footer class="bg-slate-700">
   <p class="p-2 font-logo text-3xl text-center text-white">Ankademin Cafe</p>
   <nav aria-label="secondary-navigation" class="flex justify-between flex-wrap">
-    <A href="{base}/">Home</A>
+    <A href={base}>Home</A>
     <A href="{base}/menu">Menu</A>
     <A href="{base}/contact">Contact</A>
     <A href="{base}/reviews">Reviews</A>

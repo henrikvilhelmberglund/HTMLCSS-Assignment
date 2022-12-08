@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths";
   let sassyDucks = [
     {
       name: "Old duck",
@@ -42,7 +43,7 @@
 {#each sassyDucks as sassyDuck}
   <article class="sassy-container">
     <h2>{sassyDuck.name}</h2>
-    <img src={sassyDuck.src} alt={sassyDuck.alt} srcset="" />
+    <img src="{base}{sassyDuck.src}" alt={sassyDuck.alt} srcset="" />
     <p>{sassyDuck.desc}</p>
   </article>
 {/each}
