@@ -17,7 +17,7 @@
       media="(min-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_logo_big.webp"
       width="1536"
-      height="256"
+      height="160"
       loading="eager" />
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
