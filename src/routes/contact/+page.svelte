@@ -6,12 +6,38 @@
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}>
-  <h1>Contact us</h1>
-  <p>Address: Ankans väg 31, Ankholm</p>
-  <p>Phone: 123-4567</p>
-  <img
-    src="{base}/images/ankademin-cafe/ankademin_cafe_entrance.webp"
-    alt="outside view of ankademin cafe building" />
+  <section>
+    <h1>Contact us</h1>
+    <h2>Address and phone</h2>
+    <p>Address: Ankans väg 31, Ankholm</p>
+    <p>Phone: 123-4567</p>
+    <img
+      src="{base}/images/ankademin-cafe/ankademin_cafe_entrance.webp"
+      alt="outside view of ankademin cafe building" />
+  </section>
+  <section>
+    <h2>Leave feedback</h2>
+    <article class="flex flex-col w-12">
+      <form
+        method="POST"
+        action="/contact/thank-you"
+        class="[&>*]:m-2 [&>*]:rounded">
+        <label for="email-id">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email-id"
+          placeholder="mail@example.com" />
+        <select name="feedback-type" id="feedback" class="rounded">
+          <option value="product" class=""> Köp av produkt/tjänst</option>
+          <option value="about" class="">Frågor om företaget</option>
+          <option value="feedback" class="">Synpunkter på webbplats</option>
+        </select>
+        <textarea name="textarea" id="textarea-id" cols="30" rows="10" />
+        <button type="submit">Submit</button>
+      </form>
+    </article>
+  </section>
 </main>
 
 <style>
