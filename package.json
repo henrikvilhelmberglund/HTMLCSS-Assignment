@@ -31,7 +31,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@fontsource/cherry-swash": "^4.5.9",
-    "svelte-media-query": "^1.1.2"
+    "@fontsource/cherry-swash": "^4.5.9"
   }
 }
