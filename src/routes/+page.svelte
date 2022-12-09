@@ -3,11 +3,17 @@
   import Motto from "$lib/Motto.svelte";
   import ButtonA from "$lib/ButtonA.svelte";
   import { base } from "$app/paths";
+  import { fly } from "svelte/transition";
 </script>
 
-<main class="flex flex-col items-center justify-between bg-emerald-900">
+<main
+  in:fly={{ y: -5, duration: 200, delay: 200 }}
+  out:fly={{ y: 5, duration: 200 }}
+  class="flex flex-col items-center justify-between bg-emerald-900">
   <img
     src="{base}/images/ankademin-cafe/ankademin_cafe_interior.jpg"
+    width="768"
+    height="512"
     alt="Inside of Ankademin Cafe" />
   <Motto />
 

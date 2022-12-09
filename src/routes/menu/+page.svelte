@@ -3,6 +3,7 @@
   import ButtonA from "$lib/ButtonA.svelte";
   import MenuItem from "$lib/MenuItem.svelte";
   import { base } from "$app/paths";
+  import { fly } from "svelte/transition";
 
   let menuItems = [
     {
@@ -10,21 +11,21 @@
       items: [
         {
           name: "Lorem",
-          src: `${base}/images/menu/menu_sweets_0.jpg`,
+          src: `${base}/images/menu/menu_sweets_0.webp`,
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Ipsum",
-          src: `${base}/images/menu/menu_sweets_1.jpg`,
+          src: `${base}/images/menu/menu_sweets_1.webp`,
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Dolor",
-          src: `${base}/images/menu/menu_sweets_2.jpg`,
+          src: `${base}/images/menu/menu_sweets_2.webp`,
           alt: "",
           desc: "",
           price: "20:-",
@@ -36,21 +37,21 @@
       items: [
         {
           name: "Lorem",
-          src: `${base}/images/menu/menu_drink_0.jpg`,
+          src: `${base}/images/menu/menu_drink_0.webp`,
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Ipsum",
-          src: `${base}/images/menu/menu_drink_1.jpg`,
+          src: `${base}/images/menu/menu_drink_1.webp`,
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Dolor",
-          src: `${base}/images/menu/menu_drink_2.jpg`,
+          src: `${base}/images/menu/menu_drink_2.webp`,
           alt: "",
           desc: "",
           price: "20:-",
@@ -62,21 +63,21 @@
       items: [
         {
           name: "Lorem",
-          src: `${base}/images/menu/menu_lunch_0.jpg`,
+          src: `${base}/images/menu/menu_lunch_0.webp`,
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Ipsum",
-          src: `${base}/images/menu/menu_lunch_1.jpg`,
+          src: `${base}/images/menu/menu_lunch_1.webp`,
           alt: "",
           desc: "",
           price: "20:-",
         },
         {
           name: "Dolor",
-          src: `${base}/images/menu/menu_lunch_2.jpg`,
+          src: `${base}/images/menu/menu_lunch_2.webp`,
           alt: "",
           desc: "",
           price: "20:-",
@@ -86,7 +87,10 @@
   ];
 </script>
 
-<main class="flex flex-col items-center justify-between bg-emerald-900">
+<main
+  in:fly={{ y: -5, duration: 200, delay: 200 }}
+  out:fly={{ y: 5, duration: 200 }}
+  class="flex flex-col items-center justify-between bg-emerald-900">
   <h2 class="font-thin text-3xl text-emerald-300">Menu</h2>
 
   <P type="menu">

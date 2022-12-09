@@ -3,9 +3,13 @@
   import Motto from "$lib/Motto.svelte";
   import P from "$lib/P.svelte";
   import ButtonA from "$lib/ButtonA.svelte";
+  import { fly } from "svelte/transition";
 </script>
 
-<main class="flex flex-col items-center justify-between bg-emerald-900">
+<main
+  in:fly={{ y: -5, duration: 200, delay: 200 }}
+  out:fly={{ y: 5, duration: 200 }}
+  class="flex flex-col items-center justify-between bg-emerald-900">
   <h1 class="font-thin text-3xl text-emerald-300">About us</h1>
   <h2 class="font-thin text-2xl text-emerald-300">History</h2>
   <P type="history">

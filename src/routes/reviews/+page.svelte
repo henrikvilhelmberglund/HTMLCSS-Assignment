@@ -1,5 +1,6 @@
 <script>
   import Review from "$lib/Review.svelte";
+  import { fly } from "svelte/transition";
   let users = [
     {
       username: "ducklover69",
@@ -19,25 +20,29 @@
   ];
 </script>
 
-{#each users as user}
-  <Review {...user} />
-{/each}
+<main
+  in:fly={{ y: -5, duration: 200, delay: 200 }}
+  out:fly={{ y: 5, duration: 200 }}>
+  {#each users as user}
+    <Review {...user} />
+  {/each}
 
-<p>Add a review!</p>
-<form action="">
-  <input type="text" id="username" placeholder="User name" />
-  <textarea
-    name="review"
-    id="review-id"
-    cols="30"
-    rows="4"
-    placeholder="Description" />
-  <input
-    type="submit"
-    value="Submit"
-    class="transition-all bg-orange-400 font-thin text-3xl border-2 border-orange-700 rounded-lg p-2
-  hover:bg-orange-300" />
-</form>
+  <p>Add a review!</p>
+  <form action="">
+    <input type="text" id="username" placeholder="User name" />
+    <textarea
+      name="review"
+      id="review-id"
+      cols="30"
+      rows="4"
+      placeholder="Description" />
+    <input
+      type="submit"
+      value="Submit"
+      class="transition-all bg-orange-400 font-thin text-3xl border-2 border-orange-700 rounded-lg p-2
+    hover:bg-orange-300" />
+  </form>
+</main>
 
 <style>
 </style>
