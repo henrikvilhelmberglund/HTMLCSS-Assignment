@@ -12,6 +12,7 @@
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_logo_big.webp"
       width="1536"
+      height="256"
       alt="ankademin cafe logo" />
   {/if}
 </MediaQuery>
@@ -21,6 +22,7 @@
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
       width="390"
+      height="150"
       alt="ankademin cafe logo" />
   {/if}
 </MediaQuery>
