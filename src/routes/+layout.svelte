@@ -12,6 +12,9 @@
 
 <svelte:head>
   <title>{$page.data.title}</title>
+  <meta
+    name="description"
+    content="Ankademin Cafe is a wonderful place whene you can have some Swedish fika and mingle with ducks. Out of luck? Pet a duck." />
 </svelte:head>
 
 <Header />
