@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.6...v0.0.7) (2022-12-09)
+
+
+### Features
+
+* :art: update big logo height ([a093d3a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a093d3a1aa8d0fe967e586b98820350470ebba5d))
+* :memo: update todo ([0b9bb0e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0b9bb0ee0dd8761d6dccb3c374d992447b945d3e))
+* :sparkles: add a conventional commits scope (what am I doing) ([c33bfbf](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c33bfbf7d94058167099687f9df854a44308d14c))
+* :sparkles: add csp thing ([04fac31](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/04fac31d5635eeed3cbe504c4d8ad4ebbe256944))
+* :sparkles: add default form styling ([1abbdba](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1abbdba9b5eeeba3722cb5f0b1d8a806b8302804))
+* :sparkles: add media query component that shows element when media query condition is hit ([60a414e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/60a414eec2b85a2f092af232bca5234dad9370b0))
+* :sparkles: add meta description to layout ([ea81b18](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ea81b18e9450a24e2bfef2da1449dcc1b6bf5d65))
+* :sparkles: add transitions, use webp images ([a10edd7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a10edd7334e971851df3e29250a7d67c18a9233d))
+* :sparkles: add webp versions (smaller filesizes) ([119e8f5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/119e8f5014be09d83d767f5e39d8ffeee7903ef2))
+* :sparkles: disable prerendering for review page (will have form action) ([4a53e39](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/4a53e39f68be5c88177091d1d2ad92a023ef5ade))
+* :sparkles: media query components for interior image, change order of media query components ([6d6262d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6d6262d66986f1e883b91f1636c0d185c3a31cf1))
+* :sparkles: more scopes ([3e3ab4b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3e3ab4b2119d8820e3596cd04857734ba987ce09))
+* :sparkles: use picture source with srcset instead of svelte-media-query ([51fa58a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/51fa58aff2be394bc03d84239893b29d8f7b601d))
+* **breadcrumbs:** :sparkles: put breadcrumbs in nav (secondary-navigation), add some styling for mobile ease of use ([29c1c9f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/29c1c9f4daf13451d5b3a13782feb0ec4e866a26))
+* **contact page:** :sparkles: add server side(?) form action that thanks you when you give feedback, add form ([9494b7d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9494b7d6874dc1330c13c32f23339182dd3a3ec4))
+* **footer:** :sparkles: change footer to also be primary-navigation ([49b3a5e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/49b3a5e6a6ab1615a5f4c2943296938c3b2ae0b4))
+
+
+### Bug Fixes
+
+* :art: fix typo in meta description ([f35d00d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f35d00db7dddbeb2caca54a04be5212096f494b8))
+* :art: remove white background space (TODO: should probably have a nice background color instead) ([1751be8](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1751be8d35a3ea6535a9a0e7805a78e68596ac5c))
+* :bug: add missing curly brace ([5bea935](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5bea935e610d6ee038dffdfacf7fad7f7872f4d3))
+* :bug: fix breadcrumbs and building (hopefully) ([945afd7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/945afd781ece57cd85cef3adaf91e1edbf43634d))
+* :bug: fix csp (aka no idea what I'm doing) ([7b844ff](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7b844ffeb40a9da306d5a1ce53c96b6e54278ce5))
+* :bug: make mobile logo bigger ([6b466fe](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6b466fe5ae471e7dd374273ea18a18f1b83904cf))
+* :bug: make mobile picture smaller (...) ([06ecb7a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/06ecb7ae7c57a3e7a39c9b5c7d8d463c3a2abd89))
+* :fire: remove unused stuff ([5135703](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/51357034bfe06ea851e427e4bfc74a0b8fc197ab))
+* :fire: removing svelte-media-query (was interesting but bad for cls) ([6f9ee25](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6f9ee25ab72d30ceac1d4a0b5b729efe3fefe061))
+
 ### [0.0.6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.5...v0.0.6) (2022-12-08)
 
 
