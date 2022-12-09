@@ -16,6 +16,13 @@ const config = {
       precompress: false,
       strict: true,
     }),
+    csp: {
+      directives: {
+        'script-src': ['self']
+      },
+      reportOnly: {
+        'script-src': ['self']
+      },
     paths: {
       base: dev ? "" : "/HTMLCSS-Assignment",
     },
