@@ -8,9 +8,11 @@
 
 ## Content
 
-- add contact page with image of building (SD)
-- add reviews page with user reviews with stars and stuff, and ability to give a rating
-- add about us page with company history, employees
+- review: add reviews page with user reviews with stars and stuff, and ability to give a rating
+
+## Components
+
+- replace h1, h2 etc with styled components
 
 ## Add more TODOs
 
