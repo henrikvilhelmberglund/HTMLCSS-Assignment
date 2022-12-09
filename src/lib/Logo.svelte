@@ -10,8 +10,8 @@
     <source
       media="(max-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
-      width="440"
-      height="170"
+      width="412"
+      height="160"
       loading="eager" />
     <source
       media="(min-width: 460px)"
@@ -21,8 +21,8 @@
       loading="eager" />
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
-      width="440"
-      height="170"
+      width="412"
+      height="160"
       loading="eager"
       alt="ankademin cafe logo" />
   </picture>
