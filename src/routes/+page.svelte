@@ -4,17 +4,32 @@
   import ButtonA from "$lib/ButtonA.svelte";
   import { base } from "$app/paths";
   import { fly } from "svelte/transition";
+  import MediaQuery from "svelte-media-query";
 </script>
 
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
   class="flex flex-col items-center justify-between bg-emerald-900">
-  <img
-    src="{base}/images/ankademin-cafe/ankademin_cafe_interior.jpg"
-    width="768"
-    height="512"
-    alt="Inside of Ankademin Cafe" />
+  <MediaQuery query="(max-width: 480px)" let:matches>
+    {#if matches}
+      <img
+        src="{base}/images/ankademin-cafe/ankademin_cafe_interior.webp"
+        width="390"
+        height="260"
+        alt="Inside of Ankademin Cafe" />
+    {/if}
+  </MediaQuery>
+  <MediaQuery query="(min-width: 480px)" let:matches>
+    {#if matches}
+      <img
+        src="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.jpg"
+        width="768"
+        height="512"
+        alt="Inside of Ankademin Cafe" />
+    {/if}
+  </MediaQuery>
+
   <Motto />
 
   <P type="index">
