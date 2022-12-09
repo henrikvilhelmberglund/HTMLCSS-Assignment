@@ -8,7 +8,7 @@
     "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-80a7a1b4.js",
+    "file": "_app/immutable/start-afd90950.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -26,8 +26,7 @@
       ".svelte-kit/generated/nodes/6.js",
       ".svelte-kit/generated/nodes/7.js",
       ".svelte-kit/generated/nodes/8.js",
-      ".svelte-kit/generated/nodes/9.js",
-      ".svelte-kit/generated/nodes/10.js"
+      ".svelte-kit/generated/nodes/9.js"
     ]
   },
   "src/routes/+layout.svelte": {
@@ -126,14 +125,6 @@
       "_index-6e04f247.js"
     ]
   },
-  "src/routes/reviews/leave-a-review/+page.svelte": {
-    "file": "_app/immutable/components/pages/reviews/leave-a-review/_page.svelte-d502242d.js",
-    "src": "src/routes/reviews/leave-a-review/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-6e04f247.js"
-    ]
-  },
   "src/routes/sassy-ducks/+page.svelte": {
     "file": "_app/immutable/components/pages/sassy-ducks/_page.svelte-a42704f3.js",
     "src": "src/routes/sassy-ducks/+page.svelte",
@@ -202,14 +193,6 @@
       "__page-0c3805b8.js"
     ]
   },
-  "src/routes/reviews/leave-a-review/+page.js": {
-    "file": "_app/immutable/modules/pages/reviews/leave-a-review/_page.js-903efbcf.js",
-    "src": "src/routes/reviews/leave-a-review/+page.js",
-    "isEntry": true,
-    "imports": [
-      "__page-adf87007.js"
-    ]
-  },
   "_singletons-acea283c.js": {
     "file": "_app/immutable/chunks/singletons-acea283c.js",
     "imports": [
@@ -269,9 +252,6 @@
   },
   "__page-0c3805b8.js": {
     "file": "_app/immutable/chunks/_page-0c3805b8.js"
-  },
-  "__page-adf87007.js": {
-    "file": "_app/immutable/chunks/_page-adf87007.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
     "file": "_app/immutable/chunks/0-ae1b7906.js",
@@ -353,28 +333,19 @@
     ]
   },
   ".svelte-kit/generated/nodes/9.js": {
-    "file": "_app/immutable/chunks/9-1a9dac66.js",
+    "file": "_app/immutable/chunks/9-07853b9c.js",
     "src": ".svelte-kit/generated/nodes/9.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__page-adf87007.js",
-      "src/routes/reviews/leave-a-review/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/10.js": {
-    "file": "_app/immutable/chunks/10-245fda9d.js",
-    "src": ".svelte-kit/generated/nodes/10.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
-  "src/routes/sassy-ducks/+page.css": {
-    "file": "_app/immutable/assets/_page-4449bd9e.css",
-    "src": "src/routes/sassy-ducks/+page.css"
-  },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-a0d71e04.css",
     "src": "src/routes/+layout.css"
+  },
+  "src/routes/sassy-ducks/+page.css": {
+    "file": "_app/immutable/assets/_page-4449bd9e.css",
+    "src": "src/routes/sassy-ducks/+page.css"
   }
 }
