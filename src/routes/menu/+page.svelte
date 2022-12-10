@@ -5,31 +5,32 @@
   import { base } from "$app/paths";
   import { fly } from "svelte/transition";
   import H from "$lib/H.svelte";
+  import { menuClicked } from "$lib/stores.js";
 
   let menuItems = [
     {
       category: "Sweets",
       items: [
         {
-          name: "Lorem",
+          name: "Princess duck cake",
           src: `${base}/images/menu/menu_sweets_0.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "A classic princess cake with a delicious marsipan duck on top",
+          desc: "A classic princess cake with a delicious marsipan duck on top. Perfect for birthday parties! 🍰",
+          price: "199:-",
         },
         {
-          name: "Ipsum",
+          name: "Macaron plate",
           src: `${base}/images/menu/menu_sweets_1.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "A plate filled with yummy frosted macarons",
+          desc: "A plate filled with yummy frosted macarons. 🌸",
+          price: "79:-",
         },
         {
-          name: "Dolor",
+          name: "Crunchy ducklings",
           src: `${base}/images/menu/menu_sweets_2.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "plate with crunchy duckling cookies",
+          desc: "Craving something less sweet? Our crunchy ducklings are just as delicious. 🍪",
+          price: "49:-",
         },
       ],
     },
@@ -37,25 +38,25 @@
       category: "Drinks",
       items: [
         {
-          name: "Lorem",
+          name: "Ankademin special",
           src: `${base}/images/menu/menu_drink_0.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "ankademin special drink",
+          desc: "The Ankademin special is a soft drink and hot cocoa combo which is perfect if you've brought a friend. 💕",
+          price: "59:-",
         },
         {
-          name: "Ipsum",
+          name: "Coffee",
           src: `${base}/images/menu/menu_drink_1.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "cup of coffee",
+          desc: "Of course we have wonderful coffee available. Special order? No problem! ☕",
+          price: "29:-",
         },
         {
-          name: "Dolor",
+          name: "Milky mango",
           src: `${base}/images/menu/menu_drink_2.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "milky mango drink",
+          desc: "This drink will take you to an exotic resort where you are surrounded by ducks. 🦆",
+          price: "39:-",
         },
       ],
     },
@@ -63,25 +64,25 @@
       category: "Lunch",
       items: [
         {
-          name: "Lorem",
+          name: "The special weekly plate",
           src: `${base}/images/menu/menu_lunch_0.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "special weekly plate",
+          desc: "The special weekly plate changes every week. One thing is constant: YUM! 😋",
+          price: "99:-",
         },
         {
-          name: "Ipsum",
+          name: "Burgerette",
           src: `${base}/images/menu/menu_lunch_1.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "burgerette plate",
+          desc: "Have you ever tried a burgerette? You won't regret it. 🥖",
+          price: "89:-",
         },
         {
-          name: "Dolor",
+          name: "Super salad",
           src: `${base}/images/menu/menu_lunch_2.webp`,
-          alt: "",
-          desc: "",
-          price: "20:-",
+          alt: "super salad plate",
+          desc: "Our super salad is a plate filled to the brim with fresh veggies and crunchy crutons. Watch out, the ducks love it too! 😍",
+          price: "59:-",
         },
       ],
     },
@@ -92,8 +93,7 @@
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
   class="flex flex-col items-center justify-between bg-emerald-900">
-  <H type="h1" class="font-thin text-3xl text-emerald-300">Menu</H>
-  <p class="font-mat text-white">create_new_folder</p>
+  <H type="h1" _class="font-thin text-3xl text-emerald-300">Menu</H>
   <P type="menu">
     We take a 50 SEK hourly fee (paid in advance) to allow us to care for our
     animals in the best way. When paying this fee you will also get a feed bag
@@ -106,7 +106,7 @@
 
   <ButtonA type="book" />
 
-  <div class="bg-emerald-500 w-full shadow-lg m-4">
+  <div class="bg-emerald-500 w-full shadow-lg m-4 ">
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,8 @@
 
   {#each menuItems as menuItem}
     <section>
-      <H type="h2" class="text-3xl m-4 text-emerald-100">{menuItem.category}</H>
+      <H type="h2" _class="text-3xl m-4 text-emerald-100"
+        >{menuItem.category}</H>
       {#each menuItem.items as item}
         <MenuItem {...item} />
       {/each}
