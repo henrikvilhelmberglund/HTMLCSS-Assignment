@@ -13,11 +13,11 @@
   }
 </script>
 
-<button class="border" on:click={toggle}>
+<button class="border-2 border-anka-50 rounded p-1" on:click={toggle}>
   {#if dark}
-    Toggle Light Mode
+    <p class="font-mat text-2xl">light_mode</p>
   {:else}
-    Toggle Dark Mode
+    <p class="font-matr text-2xl">dark_mode</p>
   {/if}
 </button>
 
