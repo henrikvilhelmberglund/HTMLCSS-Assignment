@@ -2,6 +2,8 @@
   import Logo from "./Logo.svelte";
   import { base } from "$app/paths";
   import AHeader from "./AHeader.svelte";
+  import DarkModeButton from "./DarkModeButton.svelte";
+  import { darkStore } from "./stores.js";
 </script>
 
 <header>
@@ -15,5 +17,7 @@
     <AHeader href="{base}/reviews">Reviews</AHeader>
     <AHeader href="{base}/contact">Contact</AHeader>
     <AHeader href="{base}/sassy-ducks">Sassy ducks</AHeader>
+    <DarkModeButton />
+    {$darkStore}
   </nav>
 </header>
