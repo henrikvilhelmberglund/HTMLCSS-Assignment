@@ -1,30 +1,31 @@
 <script>
   export let type;
-  let shared = "font-h text-emerald-300 ";
+  export let _class;
+  let shared = "font-h text-emerald-300";
 </script>
 
 {#if type === "h1"}
-  <h1 class="text-3xl {shared}">
+  <h1 class="text-3xl {shared} {_class}">
     <slot />
   </h1>
 {:else if type === "h2"}
-  <h2 class="text-2xl {shared}">
+  <h2 class="text-2xl {shared} {_class}">
     <slot />
   </h2>
 {:else if type === "h3"}
-  <h3 class="text-xl {shared}">
+  <h3 class="text-xl {shared} {_class}">
     <slot />
   </h3>
 {:else if type === "h4"}
-  <h4 class="text-xl {shared}">
+  <h4 class="text-xl {shared} {_class}">
     <slot />
   </h4>
 {:else if type === "h5"}
-  <h5 class="text-xl {shared}">
+  <h5 class="text-xl {shared} {_class}">
     <slot />
   </h5>
 {:else if type === "h6"}
-  <h6 class="text-xl {shared}">
+  <h6 class="text-xl {shared} {_class}">
     <slot />
   </h6>
 {:else}
