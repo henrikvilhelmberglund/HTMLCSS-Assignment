@@ -18,6 +18,5 @@
     <AHeader href="{base}/contact">Contact</AHeader>
     <AHeader href="{base}/sassy-ducks">Sassy ducks</AHeader>
     <DarkModeButton />
-    {$darkStore}
   </nav>
 </header>
