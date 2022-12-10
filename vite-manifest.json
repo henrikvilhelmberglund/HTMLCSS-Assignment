@@ -1,6 +1,66 @@
 {
+  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
+    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
+    "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
+    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-vietnamese-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-vietnamese-400-normal-7ed3b3e7.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-vietnamese-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-latin-ext-400-normal-a8aed46d.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2": {
+    "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-1a2694ac.woff2",
+    "src": "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2"
+  },
+  "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2": {
+    "file": "_app/immutable/assets/material-icons-rounded-all-400-normal-91000ff3.woff2",
+    "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2"
+  },
+  "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff": {
+    "file": "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
+    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff": {
+    "file": "_app/immutable/assets/spartan-all-400-normal-a877da60.woff",
+    "src": "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff": {
+    "file": "_app/immutable/assets/nunito-all-400-normal-02df670f.woff",
+    "src": "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff": {
+    "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-63c23c91.woff",
+    "src": "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff": {
+    "file": "_app/immutable/assets/material-icons-rounded-all-400-normal-8389baf3.woff",
+    "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
+  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-44a88485.js",
+    "file": "_app/immutable/start-91f233bc.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -23,7 +83,7 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-9867d66d.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-599330b8.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -33,7 +93,24 @@
       "_singletons-2eb9611e.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-542d65e7.css"
+      "_app/immutable/assets/_layout-950b388a.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
+      "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
+      "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
+      "_app/immutable/assets/spartan-all-400-normal-a877da60.woff",
+      "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
+      "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
+      "_app/immutable/assets/nunito-all-400-normal-02df670f.woff",
+      "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
+      "_app/immutable/assets/nunito-vietnamese-400-normal-7ed3b3e7.woff2",
+      "_app/immutable/assets/nunito-latin-ext-400-normal-a8aed46d.woff2",
+      "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
+      "_app/immutable/assets/material-icons-outlined-all-400-normal-1a2694ac.woff2",
+      "_app/immutable/assets/material-icons-outlined-all-400-normal-63c23c91.woff",
+      "_app/immutable/assets/material-icons-rounded-all-400-normal-91000ff3.woff2",
+      "_app/immutable/assets/material-icons-rounded-all-400-normal-8389baf3.woff"
     ]
   },
   "src/routes/+error.svelte": {
@@ -277,7 +354,7 @@
     "file": "_app/immutable/chunks/_page-48150017.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-fa12e990.js",
+    "file": "_app/immutable/chunks/0-e9f9c5a3.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -372,12 +449,12 @@
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-542d65e7.css",
-    "src": "src/routes/+layout.css"
-  },
   "src/routes/sassy-ducks/+page.css": {
     "file": "_app/immutable/assets/_page-4449bd9e.css",
     "src": "src/routes/sassy-ducks/+page.css"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-950b388a.css",
+    "src": "src/routes/+layout.css"
   }
 }
