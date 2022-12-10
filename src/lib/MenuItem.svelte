@@ -7,16 +7,18 @@
   import { base } from "$app/paths";
   import H from "./H.svelte";
   import P from "./P.svelte";
+  import Button from "./Button.svelte";
+  import { menuClicked } from "./stores.js";
 </script>
 
 <article
-  class="card lg:card-side bg-base-100 shadow-xl m-2 bg-emerald-300 flex flex-col rounded">
-  <H type="h3" class="card-title text-center text-2xl">{name}</H>
-  <figure><img {base} {src} {alt} class="w-64" /></figure>
+  class="card lg:card-side bg-base-100 shadow-xl m-12 bg-white flex flex-col rounded-lg">
+  <H type="h3" _class="!text-center !text-black !p-4">{name}</H>
+  <figure><img {base} {src} {alt} class="w-74" /></figure>
   <div class="card-body">
-    <P>{desc}</P>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">{price}</button>
+    <P _class="text-md">{desc}</P>
+    <div class="card-actions w-12 p-4">
+      <Button type="menu" {src} {alt}>{price}</Button>
     </div>
   </div>
 </article>
