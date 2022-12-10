@@ -6,17 +6,19 @@
   export let email;
   export let desc;
   import { base } from "$app/paths";
+  import H from "./H.svelte";
+  import P from "./P.svelte";
 </script>
 
 <article
   class="card lg:card-side bg-base-100 shadow-xl m-2 bg-emerald-300 flex flex-col rounded">
-  <h3 class="card-title text-center text-2xl">{name}</h3>
+  <H type="h3" class="card-title text-center text-2xl">{name}</H>
   <figure><img src="{base}{src}" {alt} class="w-64" /></figure>
   <div class="card-body">
     <div class="card-actions justify-end">
-      <p class="">{role}</p>
+      <P type="employee" class="">{role}</P>
       <a href="mailto:{email}" class="underline cursor-pointer">{email}</a>
-      <p class="">{desc}</p>
+      <P type="employee" class="">{desc}</P>
     </div>
   </div>
 </article>

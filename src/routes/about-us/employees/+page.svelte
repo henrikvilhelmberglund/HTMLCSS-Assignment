@@ -64,7 +64,7 @@
 </script>
 
 <main class="flex flex-col items-center justify-between bg-emerald-900">
-  <h1>Employees</h1>
+  <H type="h1">Employees</H>
   <P>Tap an employee to view their information.</P>
   <div class="flex flex-row">
     {#each employees as employee, i}
@@ -76,7 +76,10 @@
           id="employee{i}"
           value={i}
           bind:group={currentValue} />
-        <img src={base}{employee.src} alt={employee.alt} class="w-24 rounded-full" />
+        <img
+          src="{base}{employee.src}"
+          alt={employee.alt}
+          class="w-24 rounded-full" />
       </label>
     {/each}
   </div>

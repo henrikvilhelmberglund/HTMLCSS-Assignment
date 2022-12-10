@@ -1,22 +1,24 @@
 <script>
   import { base } from "$app/paths";
   import { fly } from "svelte/transition";
+  import H from "$lib/H.svelte";
+  import P from "$lib/P.svelte";
 </script>
 
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}>
   <section>
-    <h1>Contact us</h1>
-    <h2>Address and phone</h2>
-    <p>Address: Ankans väg 31, Ankholm</p>
-    <p>Phone: 123-4567</p>
+    <H type="h1">Contact us</H>
+    <H type="h2">Address and phone</H>
+    <P>Address: Ankans väg 31, Ankholm</P>
+    <P>Phone: 123-4567</P>
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_entrance.webp"
       alt="outside view of ankademin cafe building" />
   </section>
   <section>
-    <h2>Leave feedback</h2>
+    <H type="h2">Leave feedback</H>
     <article class="flex flex-col w-12">
       <form
         method="POST"
