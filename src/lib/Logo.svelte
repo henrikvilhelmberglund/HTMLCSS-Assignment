@@ -1,5 +1,4 @@
 <script>
-  import "@fontsource/cherry-swash";
   import { base } from "$app/paths";
 </script>
 
