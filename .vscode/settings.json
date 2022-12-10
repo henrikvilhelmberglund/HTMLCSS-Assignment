@@ -1,3 +1,8 @@
 {
-  "conventionalCommits.scopes": ["breadcrumbs", "footer", "contact page"]
+  "conventionalCommits.scopes": [
+    "breadcrumbs",
+    "footer",
+    "contact page",
+    "darkmode"
+  ]
 }
