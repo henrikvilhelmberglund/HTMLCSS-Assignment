@@ -1,26 +1,27 @@
 <script>
   export let type;
   export let _class = "";
+  let shared = "font-p";
 </script>
 
 {#if type === "index"}
   <p
-    class="p-2 bg-emerald-800 text-emerald-200 border-b border-solid border-black text-center {_class}">
+    class="p-2 bg-emerald-800 text-emerald-200 border-b border-solid border-black text-center {shared} {_class}">
     <slot />
   </p>
 {:else if type === "menu"}
   <p
-    class="p-2  bg-emerald-800 text-emerald-200 border-b border-solid border-black text-center {_class}">
+    class="p-2  bg-emerald-800 text-emerald-200 border-b border-solid border-black text-center {shared} {_class}">
     <slot />
   </p>
 {:else if type === "history"}
   <p
-    class="p-2  bg-emerald-800 text-emerald-200 border-b border-solid border-black {_class}">
+    class="p-2  bg-emerald-800 text-emerald-200 border-b border-solid border-black {shared} {_class}">
     <slot />
   </p>
 {:else}
   <p
-    class="p-2  bg-emerald-800 text-emerald-200 border-b border-solid border-black text-center {_class}">
+    class="p-2  bg-emerald-800 text-emerald-200 border-b border-solid border-black text-center {shared} {_class}">
     <slot />
   </p>
 {/if}
