@@ -8,6 +8,13 @@
   import Footer from "$lib/Footer.svelte";
   import Header from "$lib/Header.svelte";
   import Breadcrumbs from "$lib/Breadcrumbs.svelte";
+
+  // fonts
+  import "@fontsource/cherry-swash";
+  import "@fontsource/spartan";
+  import "@fontsource/nunito";
+  import "@fontsource/material-icons-outlined";
+  import "@fontsource/material-icons-rounded";
 </script>
 
 <svelte:head>
