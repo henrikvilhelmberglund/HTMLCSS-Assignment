@@ -1,5 +1,6 @@
 <script>
   import P from "$lib/P.svelte";
+  import H from "$lib/H.svelte";
   import { fly } from "svelte/transition";
 </script>
 
