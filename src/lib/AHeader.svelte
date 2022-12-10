@@ -12,7 +12,7 @@
 {:else}
   <a
     {href}
-    class="p-1 text-base rounded-md border-2 border-solid border-slate-300 h-10
+    class="p-1 text-base rounded-md border-2 border-solid border-anka-50 h-10
     hover:border-emerald-500">
     <slot />
   </a>
