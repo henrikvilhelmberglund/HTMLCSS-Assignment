@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.8](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.7...v0.0.8) (2022-12-10)
+
+
+### Features
+
+* :sparkles: add colors (WIP) and fonts to tailwind config ([2847b2c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/2847b2c03fd70c0154d216a5d52d0522227ebb14))
+* :sparkles: add components scope ([972dadf](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/972dadfc69894211b79babd814fd319b5eaa05cf))
+* :sparkles: add dark mode component that toggles dark mode and sets darkStore ([8052b23](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8052b231ae3b26b7d09a7fb49945a3d29220c338))
+* :sparkles: add darkmode to scopes ([ef8db5c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ef8db5c86ac05b32fd5c36411bb2698fa3f42756))
+* :sparkles: add font imports in +layout.svelte so I can use them anywhere by default ([9e299cf](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9e299cf0de065363caeaf354375c9d414f8b9edd))
+* :sparkles: add H component and use instead of h1-h6 (WIP) ([6316140](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6316140a420c43f272ed10a80cb929e9a65cf8f9))
+* :sparkles: add menuClicked to store (used in menu +page.svelte) ([30619d1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/30619d1d252c742b841a09d18b9a7ac8e5f4da2d))
+* :sparkles: install more fonts ([9422d5a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9422d5a8be731a53bf7b7a74a82f41084d1e39b0))
+* :sparkles: use H and P components ([81dec15](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/81dec15470f54a5c2a2a974093ec7280161915ed))
+* :sparkles: use H component in +error.svelte ([b157d5f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b157d5f3679e8cc592e46872977c5a1299571bd8))
+* :sparkles: use H2 in menu +page.svelte ([0da163b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0da163b01b65bc508721d841e28813dc1555d5f0))
+* :sparkles: use new color in AHeader ([0829dec](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0829dec70ff3a2cacd35af18e664cdd385225418))
+* **components:** :sparkles: add ability to override classes with props ([8dac922](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8dac922b4c05b3723108d235a213edbca0ea7c6a))
+* **components:** :sparkles: add Button component that displays a big picture when clicked ([3179803](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/31798030e524545e86c5f8e1dfb0ba0746381e01))
+* **components:** :sparkles: add shared classes in variable, update styling ([3971e59](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3971e59e2978be6cee4c08fb84a1815e39a7b896))
+* **components:** :sparkles: use Button component in MenuItem.svelte 😋 ([6daf11e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6daf11e8a77f46fe909bce7d90b667b53789d1ca))
+* **components:** :sparkles: use new font in P component ([1f22536](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1f22536b7f5a55c8b03b6bb2ede7bfd62ca96a0b))
+* **components:** :sparkles: use P component in +error.svelte ([4e63b10](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/4e63b1036d1d25a2121733723a64e9c42f5b6ddd))
+* **components:** :sparkles: use P component in menu +page.svelte ([7e5a861](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7e5a8610f06aae596266bc97df6cf46a0822574c))
+* **components:** :sparkles: use P component in Review.svelte ([ef30f04](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ef30f04138ebf0cbce9314fc39da6880caedb747))
+* **components:** :sparkles: use P component, add emojis ([1abea0c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1abea0c8a4d6f79d6249523831b179e47895d46b))
+* **darkmode:** :sparkles: add darkmode button in header (no image yet) ([02bc5c2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/02bc5c22865f94ef4e2dce8ffc148ae874b42e41))
+* **darkmode:** :sparkles: add darkStore writable store (default value false) ([e11c595](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e11c5954b95c99d39e571d17a77fd0863e6d40bc))
+* **darkmode:** :sparkles: add icons to dark mode button ([635bac1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/635bac19525e3ac352826e72f7a72e1ae8113233))
+* **menu:** :sparkles: add a lot of data to the menu page, use P component 🤯 ([3fb47f6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3fb47f601dd70a25333ffc1c329665c00d40fb80))
+* **todo:** :memo: update TODO ([9de7a3f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9de7a3f8f26cfb2414508832e3c914be9abeac15))
+
+
+### Bug Fixes
+
+* :bug: add H import in book +page.svelte as well 😴 ([443df04](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/443df048ad29c1fe933f4f07cf173429587530a3))
+* :bug: add titles to thank-you, book, sassy-ducks pages ([97cefb4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/97cefb46256b9c7b08f33d9413944dfacd0cacd1))
+* :bug: if route is null (eg. error page etc) don't add breadcrumbs ([d6ecd2c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d6ecd2c89f353792e27e324ae7e652e4837b19e4))
+* :fire: move font imports to +layout.svelte ([6528b88](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6528b888bce701ac9db3e72b4eb4ef26c3a7f9f3))
+* :fire: remove debugging {$darkStore} in header ([ec87b8c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ec87b8c0b59aca2117ccdc006b4a0144640fb178))
+* :sparkles: use holdmode with inspector ([9f33f9f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9f33f9f16b444146235213983e39e2e96d58fbe1))
+* **employees:** :bug: add missing H component import to fix build 💦 ([0d68be3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0d68be38a19e2945e369c6902a3eb2c4487a42db))
+
 ### [0.0.7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.6...v0.0.7) (2022-12-09)
 
 
