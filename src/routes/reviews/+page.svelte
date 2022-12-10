@@ -1,6 +1,7 @@
 <script>
   import Review from "$lib/Review.svelte";
   import { fly } from "svelte/transition";
+  import P from "$lib/P.svelte";
   let users = [
     {
       username: "ducklover69",
@@ -27,7 +28,7 @@
     <Review {...user} />
   {/each}
 
-  <p>Add a review!</p>
+  <P>Add a review!</P>
   <form action="">
     <input type="text" id="username" placeholder="User name" />
     <textarea
