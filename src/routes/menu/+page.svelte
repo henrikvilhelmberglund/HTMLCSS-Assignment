@@ -4,6 +4,7 @@
   import MenuItem from "$lib/MenuItem.svelte";
   import { base } from "$app/paths";
   import { fly } from "svelte/transition";
+  import H from "$lib/H.svelte";
 
   let menuItems = [
     {
@@ -91,8 +92,8 @@
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
   class="flex flex-col items-center justify-between bg-emerald-900">
-  <h2 class="font-thin text-3xl text-emerald-300">Menu</h2>
-
+  <H type="h1" class="font-thin text-3xl text-emerald-300">Menu</H>
+  <p class="font-mat text-white">create_new_folder</p>
   <P type="menu">
     We take a 50 SEK hourly fee (paid in advance) to allow us to care for our
     animals in the best way. When paying this fee you will also get a feed bag
@@ -123,7 +124,7 @@
 
   {#each menuItems as menuItem}
     <section>
-      <h2 class="text-3xl m-4 text-emerald-100">{menuItem.category}</h2>
+      <H type="h2" class="text-3xl m-4 text-emerald-100">{menuItem.category}</H>
       {#each menuItem.items as item}
         <MenuItem {...item} />
       {/each}
