@@ -1,6 +1,7 @@
 <script>
   import { page } from "$app/stores";
   import H from "$lib/H.svelte";
+  import P from "$lib/P.svelte";
 </script>
 
 <main class="bg-emerald-700">
@@ -8,9 +9,10 @@
 
   <img src="/images/error.jpg" alt="sad duck" srcset="" />
   {#if $page.status === 404}
-    <p class="text-lg p-2 italic">The duck you're looking for isn't in here.</p>
+    <P _class="text-lg p-2 italic"
+      >The duck you're looking for isn't in here.</P>
   {:else}
-    <p class="text-lg">Unknown error.</p>
+    <P _class="text-lg">Unknown error.</P>
   {/if}
 </main>
 
