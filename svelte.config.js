@@ -27,7 +27,7 @@ const config = {
     },
   },
   vitePlugin: {
-    experimental: { inspector: true },
+    experimental: { inspector: { holdMode: true } },
   },
 
   preprocess: [
