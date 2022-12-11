@@ -1,11 +1,11 @@
 {
-  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
-    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
+    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
@@ -94,7 +94,7 @@
       "_stores-455daea6.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-33e8bc9a.css"
+      "_app/immutable/assets/_layout-375017ef.css"
     ],
     "assets": [
       "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -505,7 +505,7 @@
     ]
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-33e8bc9a.css",
+    "file": "_app/immutable/assets/_layout-375017ef.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/sassy-ducks/+page.css": {
