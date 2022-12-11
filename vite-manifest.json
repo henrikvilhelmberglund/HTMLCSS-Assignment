@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-4db668ae.js",
+    "file": "_app/immutable/start-92ec3240.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -185,7 +185,7 @@
     ]
   },
   "src/routes/menu/+page.svelte": {
-    "file": "_app/immutable/components/pages/menu/_page.svelte-7baf32ac.js",
+    "file": "_app/immutable/components/pages/menu/_page.svelte-9785e108.js",
     "src": "src/routes/menu/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -469,7 +469,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-f3d77f63.js",
+    "file": "_app/immutable/chunks/7-d6f99369.js",
     "src": ".svelte-kit/generated/nodes/7.js",
     "isDynamicEntry": true,
     "imports": [
