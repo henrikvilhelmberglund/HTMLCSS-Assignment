@@ -2,8 +2,8 @@
 
 ## Styling
 
-- fix button styling
-- come up with a few more nice colors to use everywhere
+- remove hard coded bg
+- make light/dark mode look decent
 
 ## Content
 
