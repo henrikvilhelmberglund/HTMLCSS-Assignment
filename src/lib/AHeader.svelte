@@ -12,7 +12,7 @@ export let href;
 {:else}
   <a
     {href}
-    class="d:p-8 h-10 rounded-md border-2 border-solid border-sky-300 bg-sky-200 p-1 text-base hover:border-emerald-500 md:text-xl">
+    class="h-10 rounded-md border-2 border-solid border-sky-300 bg-sky-200 p-1 text-base hover:border-emerald-500 md:p-8 md:text-xl">
     <slot />
   </a>
 {/if}
