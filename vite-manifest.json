@@ -1,4 +1,8 @@
 {
+  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
+    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
+  },
   "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
@@ -27,10 +31,6 @@
     "file": "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
-    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2": {
     "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-1a2694ac.woff2",
     "src": "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2"
@@ -39,6 +39,10 @@
     "file": "_app/immutable/assets/material-icons-rounded-all-400-normal-91000ff3.woff2",
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2"
   },
+  "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff": {
+    "file": "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
+    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
+  },
   "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff": {
     "file": "_app/immutable/assets/spartan-all-400-normal-a877da60.woff",
     "src": "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff"
@@ -46,10 +50,6 @@
   "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff": {
     "file": "_app/immutable/assets/nunito-all-400-normal-02df670f.woff",
     "src": "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff"
-  },
-  "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff": {
-    "file": "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
-    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
   },
   "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff": {
     "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-63c23c91.woff",
@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-840bc3c6.js",
+    "file": "_app/immutable/start-bbb7ea82.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -94,7 +94,7 @@
       "_stores-455daea6.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-e8439f6b.css"
+      "_app/immutable/assets/_layout-dfe9abd3.css"
     ],
     "assets": [
       "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -126,7 +126,7 @@
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-079eb696.js",
+    "file": "_app/immutable/components/pages/_page.svelte-cd04244e.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -424,7 +424,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-fc51ac22.js",
+    "file": "_app/immutable/chunks/2-6af4699f.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -505,7 +505,7 @@
     ]
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-e8439f6b.css",
+    "file": "_app/immutable/assets/_layout-dfe9abd3.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/sassy-ducks/+page.css": {
