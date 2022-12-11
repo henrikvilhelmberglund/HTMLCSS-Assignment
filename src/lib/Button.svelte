@@ -22,13 +22,13 @@ import { menuClicked } from "./stores.js";
       <img
         {src}
         {alt}
-        class="z-100 absolute bottom-0 m-0 min-w-[96vw] p-0 filter-none" />
+        class="z-100 absolute bottom-0 m-0 min-w-[96vw] p-0 filter-none md:min-w-[70vw]" />
       <div
         class="absolute top-0 h-[100vh] w-[96vw] {$menuClicked
           ? 'backdrop-blur-lg backdrop-brightness-50'
           : ''}" />
       <div
-        class="absolute bottom-[397px] h-[100vh] w-[96vw] {$menuClicked
+        class="absolute bottom-[43vh] h-[100vh] w-[96vw] {$menuClicked
           ? 'backdrop-blur-lg backdrop-brightness-50'
           : ''}" />
     </div>
