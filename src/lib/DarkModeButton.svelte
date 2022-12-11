@@ -1,5 +1,6 @@
 <script>
 import { darkStore } from "./stores.js";
+import { browser } from "$app/environment";
 let dark = false;
 export let _class;
 
@@ -12,6 +13,17 @@ function toggle() {
     dark = true;
     darkStore.set(true);
     document.documentElement.classList.add("dark");
+  }
+}
+if (browser) {
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    document.documentElement.classList.add("dark");
+    dark = true;
+    darkStore.set(true);
+  } else {
+    document.documentElement.classList.remove("dark");
+    dark = false;
+    darkStore.set(false);
   }
 }
 </script>
