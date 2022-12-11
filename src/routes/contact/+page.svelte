@@ -1,8 +1,8 @@
 <script>
-  import { base } from "$app/paths";
-  import { fly } from "svelte/transition";
-  import H from "$lib/H.svelte";
-  import P from "$lib/P.svelte";
+import { base } from "$app/paths";
+import { fly } from "svelte/transition";
+import H from "$lib/H.svelte";
+import P from "$lib/P.svelte";
 </script>
 
 <main
@@ -19,7 +19,7 @@
   </section>
   <section>
     <H type="h2">Leave feedback</H>
-    <article class="flex flex-col w-12">
+    <article class="flex w-12 flex-col">
       <form
         method="POST"
         action="/contact/thank-you"

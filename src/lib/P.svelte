@@ -1,8 +1,8 @@
 <script>
-  export let type;
-  export let _class = "";
-  let shared =
-    "font-p bg-emerald-800 text-emerald-200 border-b border-solid border-black";
+export let type;
+export let _class = "";
+let shared =
+  "font-p bg-emerald-800 text-emerald-200 border-b border-solid border-black";
 </script>
 
 {#if type === "index"}

@@ -1,7 +1,7 @@
 <script>
-  export let form;
-  import P from "$lib/P.svelte";
-  import H from "$lib/H.svelte";
+export let form;
+import P from "$lib/P.svelte";
+import H from "$lib/H.svelte";
 </script>
 
 <main class="h-[45vh]">

@@ -1,7 +1,7 @@
 <script>
-  import { page } from "$app/stores";
-  import H from "$lib/H.svelte";
-  import P from "$lib/P.svelte";
+import { page } from "$app/stores";
+import H from "$lib/H.svelte";
+import P from "$lib/P.svelte";
 </script>
 
 <main class="bg-emerald-700">

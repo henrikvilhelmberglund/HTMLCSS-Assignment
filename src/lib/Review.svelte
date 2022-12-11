@@ -1,9 +1,9 @@
 <script>
-  import { base } from "$app/paths";
-  export let username;
-  export let score;
-  export let desc;
-  import P from "./P.svelte";
+import { base } from "$app/paths";
+export let username;
+export let score;
+export let desc;
+import P from "./P.svelte";
 </script>
 
 <article class="flex flex-col border-t border-solid border-black p-4">

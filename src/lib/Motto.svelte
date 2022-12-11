@@ -1,5 +1,5 @@
 <script>
-  import P from "./P.svelte";
+import P from "./P.svelte";
 </script>
 
 <P

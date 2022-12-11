@@ -1,15 +1,15 @@
 <script>
-  import P from "$lib/P.svelte";
-  import Motto from "$lib/Motto.svelte";
-  import ButtonA from "$lib/ButtonA.svelte";
-  import { base } from "$app/paths";
-  import { fly } from "svelte/transition";
+import P from "$lib/P.svelte";
+import Motto from "$lib/Motto.svelte";
+import ButtonA from "$lib/ButtonA.svelte";
+import { base } from "$app/paths";
+import { fly } from "svelte/transition";
 </script>
 
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="flex flex-col items-center justify-between bg-emerald-900">
+  class="flex flex-col items-center justify-between bg-emerald-900 transition-all dark:bg-slate-900 ">
   <picture>
     <source
       media="(max-width: 460px)"

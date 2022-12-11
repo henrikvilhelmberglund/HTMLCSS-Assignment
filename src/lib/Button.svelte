@@ -1,10 +1,10 @@
 <script>
-  import { base } from "$app/paths";
-  export let type;
-  export let src;
-  export let alt;
-  let clicked = false;
-  import { menuClicked } from "./stores.js";
+import { base } from "$app/paths";
+export let type;
+export let src;
+export let alt;
+let clicked = false;
+import { menuClicked } from "./stores.js";
 </script>
 
 {#if type === "menu"}
@@ -18,17 +18,17 @@
         clicked = false;
         menuClicked.set(false);
       }}
-      class="relative flex-1 right-16 top-14">
+      class="relative right-16 top-14 flex-1">
       <img
         {src}
         {alt}
-        class="absolute bottom-0 p-0 m-0 min-w-[96vw] z-100 filter-none" />
+        class="z-100 absolute bottom-0 m-0 min-w-[96vw] p-0 filter-none" />
       <div
-        class="absolute w-[96vw] h-[100vh] top-0 {$menuClicked
+        class="absolute top-0 h-[100vh] w-[96vw] {$menuClicked
           ? 'backdrop-blur-lg backdrop-brightness-50'
           : ''}" />
       <div
-        class="absolute w-[96vw] h-[100vh] bottom-[397px] {$menuClicked
+        class="absolute bottom-[397px] h-[100vh] w-[96vw] {$menuClicked
           ? 'backdrop-blur-lg backdrop-brightness-50'
           : ''}" />
     </div>
@@ -43,7 +43,7 @@
         menuClicked.set(true);
       }
     }}
-    class="transition-all text-center bg-orange-400 font-thin text-3xl border-2 border-orange-700 rounded-lg p-2
+    class="rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-center text-3xl font-thin transition-all
     hover:bg-orange-300">
     <slot />
   </button>
