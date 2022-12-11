@@ -12,7 +12,7 @@ import { menuClicked } from "./stores.js";
 </script>
 
 <article
-  class="card lg:card-side bg-base-100 m-12 flex flex-col rounded-lg bg-white shadow-xl">
+  class="card lg:card-side m-12 flex flex-1 flex-col rounded-lg bg-white shadow-xl">
   <H type="h3" _class="!text-center !text-black !p-4">{name}</H>
   <figure><img {base} {src} {alt} class="w-74" /></figure>
   <div class="card-body">
