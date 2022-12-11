@@ -92,15 +92,17 @@ let menuItems = [
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="flex flex-col items-center justify-between bg-emerald-900">
-  <H type="h1" _class="font-thin text-3xl text-emerald-300">Menu</H>
-  <P type="menu">
+  class="flex flex-col items-center justify-between">
+  <H
+    type="h1"
+    _class="font-thin text-3xl dark:text-emerald-300 text-emerald-700">Menu</H>
+  <P type="menu" _class="w-full">
     We take a 50 SEK hourly fee (paid in advance) to allow us to care for our
     animals in the best way. When paying this fee you will also get a feed bag
     which you can open when you want to give our ducks a treat.
   </P>
 
-  <P type="menu">
+  <P type="menu" _class="w-full">
     Our cafe is very popular so if possible book a time slot to make sure that
     we will be able to provide the best experience.</P>
 
@@ -112,8 +114,8 @@ let menuItems = [
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        class="h-6 w-6 flex-shrink-0 stroke-current"
-        ><path
+        class="h-6 w-6 flex-shrink-0 stroke-current">
+        <path
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
@@ -123,9 +125,9 @@ let menuItems = [
   </div>
 
   {#each menuItems as menuItem}
-    <section>
-      <H type="h2" _class="text-3xl m-4 text-emerald-100"
-        >{menuItem.category}</H>
+    <section class="md:flex md:w-full">
+      <H type="h2" _class="text-3xl m-4 dark:text-emerald-100 text-emerald-700">
+        {menuItem.category}</H>
       {#each menuItem.items as item}
         <MenuItem {...item} />
       {/each}

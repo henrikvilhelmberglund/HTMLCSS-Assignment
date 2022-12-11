@@ -2,7 +2,7 @@
 export let type;
 export let _class = "";
 let shared =
-  "font-p bg-emerald-800 text-emerald-200 border-b border-solid border-black";
+  "font-p dark:bg-emerald-900 dark:text-emerald-200 bg-emerald-300 text-emerald-900 border-b border-solid border-black md:w-[30vw] md:p-4 md:m-4 md:rounded-xl md:border";
 </script>
 
 {#if type === "index"}

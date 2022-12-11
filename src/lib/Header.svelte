@@ -7,6 +7,7 @@ import P from "./P.svelte";
 
 <header
   class="bg-sky-200 
+  dark:bg-sky-900
   md:bg-sky-200">
   <Logo />
   <nav
