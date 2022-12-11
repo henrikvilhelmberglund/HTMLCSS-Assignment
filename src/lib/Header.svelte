@@ -1,22 +1,48 @@
 <script>
-  import Logo from "./Logo.svelte";
-  import { base } from "$app/paths";
-  import AHeader from "./AHeader.svelte";
-  import DarkModeButton from "./DarkModeButton.svelte";
-  import { darkStore } from "./stores.js";
+import Logo from "./Logo.svelte";
+import { base } from "$app/paths";
+import AHeader from "./AHeader.svelte";
+import P from "./P.svelte";
 </script>
 
-<header>
+<header
+  class="bg-sky-200 
+  md:bg-sky-200">
   <Logo />
   <nav
     aria-label="primary-navigation"
-    class="flex justify-between bg-white flex-wrap gap-2">
-    <AHeader href="{base}/">Home</AHeader>
-    <AHeader href="{base}/menu">Menu</AHeader>
-    <AHeader href="{base}/about-us">About us</AHeader>
-    <AHeader href="{base}/reviews">Reviews</AHeader>
-    <AHeader href="{base}/contact">Contact</AHeader>
-    <AHeader href="{base}/sassy-ducks">Sassy ducks</AHeader>
-    <DarkModeButton />
+    class="flex flex-wrap justify-between gap-2">
+    <AHeader href="{base}/">
+      <P
+        _class="relative bottom-1.5
+      md:bottom-3 md:p-0">
+        Home
+      </P>
+    </AHeader>
+    <AHeader href="{base}/menu">
+      <P
+        _class="relative bottom-1.5
+       md:bottom-3 md:p-0">Menu</P>
+    </AHeader>
+    <AHeader href="{base}/about-us">
+      <P
+        _class="relative bottom-1.5
+       md:bottom-3 md:p-0">About us</P>
+    </AHeader>
+    <AHeader href="{base}/reviews">
+      <P
+        _class="relative bottom-1.5
+       md:bottom-3 md:p-0">Reviews</P>
+    </AHeader>
+    <AHeader href="{base}/contact">
+      <P
+        _class="relative bottom-1.5
+       md:bottom-3 md:p-0">Contact</P>
+    </AHeader>
+    <AHeader href="{base}/sassy-ducks">
+      <P
+        _class="relative bottom-1.5
+      md:bottom-3 md:p-0">Sassy ducks</P>
+    </AHeader>
   </nav>
 </header>
