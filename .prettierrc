@@ -1,0 +1,8 @@
+{
+  "bracketSameLine": true,
+  "svelteIndentScriptAndStyle": false,
+  "plugins": [
+    "prettier-plugin-svelte",
+    "prettier-plugin-tailwindcss"],
+  "pluginSearchDirs": false
+}
