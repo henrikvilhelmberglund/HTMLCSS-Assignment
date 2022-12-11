@@ -31,6 +31,7 @@ const config = {
   },
 
   plugins: [forms],
+  darkMode: "class",
 };
 
 module.exports = config;
