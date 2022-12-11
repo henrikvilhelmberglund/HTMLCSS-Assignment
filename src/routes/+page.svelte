@@ -9,13 +9,13 @@ import { fly } from "svelte/transition";
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="flex flex-col items-center justify-between bg-emerald-900 transition-all dark:bg-slate-900 ">
+  class="flex flex-col items-center justify-between transition-all ">
   <picture>
     <source
       media="(max-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior.webp"
-      width="390"
-      height="260" />
+      width="412"
+      />
     <source
       media="(min-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.jpg"
