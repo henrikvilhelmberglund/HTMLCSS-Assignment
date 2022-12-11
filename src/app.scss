@@ -1,6 +1,20 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
 
-
 // * {
 //   outline: 1px solid #f00 !important;
 // }
+
+* {
+  @apply transition-all;
+}
+
+body {
+  @apply bg-emerald-200;
+}
+
+.dark {
+  @apply bg-emerald-800;
+  body {
+    @apply bg-emerald-800;
+  }
+}
