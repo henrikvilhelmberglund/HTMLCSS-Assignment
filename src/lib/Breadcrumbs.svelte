@@ -8,7 +8,9 @@ import { darkStore } from "./stores.js";
 <!-- {base + "/"} -->
 <!-- {$page.url.pathname.split("/")} -->
 {#if $page.route.id !== null}
-  <nav aria-label="secondary-navigation" class="py-2">
+  <nav
+    aria-label="secondary-navigation"
+    class="bg-gradient-to-b from-sky-200 to-emerald-200 py-2 dark:bg-emerald-800 dark:from-sky-900 dark:to-emerald-800">
     {#each $page.route.id.split("/") as url, i}
       {#if i === 0}
         {#if $page.route.id.length === 1}
