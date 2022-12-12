@@ -9,8 +9,8 @@ import { base } from "$app/paths";
     <source
       media="(max-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
-      width="412"
-      height="160" />
+      width="824"
+      height="320" />
     <source
       media="(min-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_logo_big.webp"
@@ -18,8 +18,8 @@ import { base } from "$app/paths";
       height="160" />
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
-      width="412"
-      height="160"
+      width="824"
+      height="320"
       alt="ankademin cafe logo" />
   </picture>
 </section>
