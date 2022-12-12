@@ -13,16 +13,16 @@ import { fly } from "svelte/transition";
   <picture>
     <source
       media="(max-width: 460px)"
-      srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.jpg"
+      srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.webp"
       width="768"
       height="512" />
     <source
       media="(min-width: 460px)"
-      srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.jpg"
+      srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.webp"
       width="768"
       height="512" />
     <img
-      src="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.jpg"
+      src="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.webp"
       width="768"
       height="512"
       alt="Inside of Ankademin Cafe" />
