@@ -72,7 +72,7 @@ import { menuClicked } from "./stores.js";
 {#if type === "submit"}
   <button
     class="rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-center text-3xl font-thin transition-all
-  hover:bg-orange-300">
+  hover:bg-orange-300 w-[62vw] md:w-[14vw]">
     <slot />
   </button>
 {:else}
