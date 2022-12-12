@@ -47,7 +47,7 @@ let sassyDucks = [
   {#each sassyDucks as sassyDuck}
     <article class="sassy-container">
       <h2>{sassyDuck.name}</h2>
-      <img src="{base}{sassyDuck.src}" alt={sassyDuck.alt} srcset="" />
+      <img src="{base}{sassyDuck.src}" alt={sassyDuck.alt} />
       <p>{sassyDuck.desc}</p>
     </article>
   {/each}
