@@ -40,6 +40,11 @@ let users = [
     score: 1,
     desc: "I got bit by a duck! My finger still hurts...",
   },
+  {
+    username: "ChatGPT",
+    score: 10,
+    desc: "Ankademin Cafe is a hidden gem in the city. Not only do they have delicious coffee and pastries, but they also have a unique feature - live ducks! The ducks are so well-behaved and add an extra touch of charm to the cafe. It's a perfect spot to relax and unwind while enjoying the company of these adorable creatures. The staff are also very friendly and make sure to keep the ducks well-cared for. Overall, I highly recommend Ankademin Cafe for a fun and enjoyable experience.",
+  },
 ];
 </script>
 
