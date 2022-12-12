@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.10](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.9...v0.0.10) (2022-12-12)
+
+
+### Features
+
+* :lipstick: update contact page style ([ec61691](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ec616914b77aaffd734bdd4fb8f0399a72e78efe))
+* :lipstick: update sassy ducks page style ([d7c761d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d7c761d2ba57d7bb336bb95ff16c1ba5523d2291))
+* :lipstick: update SCSS variables ([a917917](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a9179176fc8a3d660a21e30c15986694c6cf4d66))
+* :lipstick: update style for book +page.svelte ([f6a5f76](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f6a5f7646caab4bcc8e5c297a44ded02aeb350dd))
+* :lipstick: update style thank you page ([9c00b42](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9c00b4226332a49075217debe95834b3ea46f47d))
+* :lipstick: update styling for employees +page.svelte ([25437a4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/25437a4b9347afa28d1652a42a54e1cbf8a0385f))
+* :memo: update report ([335bbd9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/335bbd9bba2e3c1c9ec4c2eb3aae06dd3d9bbfe9))
+* :memo: update TODO ([1964017](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1964017fc9a377fdddac2007f2a977c125961b1f))
+* :package: add svelte-local-storage-store ([bbb3df2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/bbb3df28755466597543f0ba4cbf392b899a589f))
+* :sparkles: add .md files, will use for report and slides ([30c0561](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/30c05612c652babad332ed7765d8f1ea9ea8e2a3))
+* :sparkles: add button to delete local storage in reviews page ([0f53bc7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0f53bc738bd63d83347a89a1e0912c57f0fe313a))
+* :sparkles: add ChatGPT's review ([c66e760](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c66e76036f575937da8b47c467e178a3171d5708))
+* :sparkles: add responsivity to dark mode button ([e188923](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e188923a57da2ae1850ad52d7e157769cf8d8b60))
+* :sparkles: add userReview store for storing user review data ([14837ba](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/14837ba1642073276915497208ebd6631cf030fa))
+* :sparkles: use fancy local storage store for custom user reviews ([dbe7ff6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/dbe7ff647b4832306200134cb22fead6643b3f61))
+* :sparkles: use store for user reviews ([6db48bc](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6db48bc6d94a26f66cc443741dffdf59721901e2))
+* :wrench: add scope for conventional commits extension ([cd7fa64](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/cd7fa644889cd149df8e139141d01f934c3e8c08))
+* **components:** :lipstick: add md: Button ([d740b0d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d740b0d6b55eb2acadc5e200f1480edd892faf7c))
+* **components:** :sparkles: add functionality for adding reviews TODO: use store ([2539652](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/25396525911ed92bfe98e63e87089da74bfd94a9))
+* **components:** :sparkles: less janky way of having a backdrop 🥇 ([1a12cb9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1a12cb91aff1a50e0ad4fc3cbeb121862ac06951))
+* **darkmode:** :lipstick: add better styling for dark mode button ([88cd7c6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/88cd7c635e985f4901241c8dfb58c747130862e1))
+* **darkmode:** :lipstick: add dark mode and better styling for EmployeesItem.svelte ([d777388](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d7773885f79fe53bd82bb4115c37331469850a2b))
+* **darkmode:** :lipstick: add dark mode for MenuItem (card background) ([f63fd2c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f63fd2c508433c43ebe94f29f6406c82513aacab))
+* **darkmode:** :lipstick: make dark mode button smaller but wider ([61cbb57](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/61cbb575756f58226ae00328f7abc5896a8a61bd))
+* **darkmode:** :lipstick: update dark mode in Breadcrumbs.svelte ([0d378ed](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0d378ed4f9791b0cdd10828b5443abbf4d2d1455))
+* **footer:** :lipstick: update Footer styling ([5e6dade](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5e6dade238e95fe0b49629f2a6de8a4fd071a1bb))
+* **report:** :memo: git wanted to commit again ([00dfa3c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/00dfa3c56205d4e4bdb2372ecabd011f73030c24))
+* **report:** :sparkles: update report .md and add report .pdf autogenerated from the .md ([6051e5d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6051e5da27f26fd0f9e5d25c88c9ef4d0622283f))
+
+
+### Bug Fixes
+
+* :bug: add height back in index page ([94d4f6e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/94d4f6ed3ff5c130ee83c2b5492028070d7488bd))
+* :bug: replace mobile logo with higher resolution version ([7181a6a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7181a6a63f1e823d7813479856b0b478adf19e94))
+* :bug: update csp (no idea if it works) ([de712b3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/de712b360ccb9638fcf6586fd4aa1b008c02b11b))
+* :bug: use same image for mobile (forgot mobiles have good pixel density) ([5bdcba0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5bdcba09b9229774140d4725f31d97100f40c5fb))
+* :goal_net: more w3c validation ([5f01162](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5f011620b608311adb25d6e663fb951c65649522))
+* :goal_net: wc3 validation ([8896f46](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8896f46325f373fbba5a03ba45c7a63b1fa6ff4d))
+* :lipstick: remove * transition for now (want to not have transitions on some elements) ([b0ef4d2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b0ef4d2a4660998a5abe990aa3a7335df1a86100))
+* :lipstick: remove label (maybe needed?), add items-center ([3f142d5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3f142d5679c66f9db00a7d8e10540b1574e52655))
+* **components:** :bug: change md: to lg: because it was a bit janky (covered the nav) ([557ff36](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/557ff36fb21e05075fa0927f1a3175116be17f94))
+* **components:** :bug: fix faulty Button if statement ([15900ce](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/15900ce6b878e200c92b060033a2cff98043005f))
+* **components:** :fire: remove unneeded attribute in Logo ([caa07a5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/caa07a540451d0d5785a1062b8ed06d3772d7edf))
+* **components:** :lipstick: in case of extra styles ([1e52017](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1e520179b7cf6e4c7b308118049f4cd7aea52264))
+* **footer:** :bug: add height back in Footer ([66961a7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/66961a77d5299cc6db27caf279a6ef2d8a1cfe7b))
+* **footer:** :bug: fix footer copyright text color ([441104a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/441104af791a0545860a508befa02c8f6a647665))
+
 ### [0.0.9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.8...v0.0.9) (2022-12-12)
 
 
