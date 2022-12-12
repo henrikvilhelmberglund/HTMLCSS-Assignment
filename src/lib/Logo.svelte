@@ -10,19 +10,16 @@ import { base } from "$app/paths";
       media="(max-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
       width="412"
-      height="160"
-      loading="eager" />
+      height="160" />
     <source
       media="(min-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_logo_big.webp"
       width="1536"
-      height="160"
-      loading="eager" />
+      height="160" />
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_logo.webp"
       width="412"
       height="160"
-      loading="eager"
       alt="ankademin cafe logo" />
   </picture>
 </section>
