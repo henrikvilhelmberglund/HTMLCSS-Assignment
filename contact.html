@@ -4,9 +4,9 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="/HTMLCSS-Assignment/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="script-src 'self' 'sha256-H1qycNofidpTCQDNPMpccIOjhQnFIp7m5YrJrT0xwEU='">
-		<link href="/HTMLCSS-Assignment/_app/immutable/assets/_layout-826f9d3d.css" rel="stylesheet">
-		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/start-81f0485e.js">
+		<meta http-equiv="content-security-policy" content="script-src 'self' 'sha256-Vc2xkmiBYMzz6dSt9p2gVJeDwhlXfsejOkQBQ/28rwY='">
+		<link href="/HTMLCSS-Assignment/_app/immutable/assets/_layout-ce83db3e.css" rel="stylesheet">
+		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/start-70a0a231.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/index-9958170c.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/singletons-a32ca86c.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/index-5f90a2ef.js">
@@ -17,9 +17,10 @@
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/stores-0b185a4c.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/modules/pages/_layout.js-7b9cbfbc.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/_layout-8d2a742b.js">
-		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/components/pages/contact/_page.svelte-32723270.js">
+		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/components/pages/contact/_page.svelte-6b3f85e2.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/index-fbf93bd4.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/H-c3f2dd54.js">
+		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/Button-ac3caa87.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/modules/pages/contact/_page.js-999c9f01.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/_page-ca74f7ee.js"><title>Ankademin Cafe - Contact</title><!-- HEAD_svelte-1f8r09i_START --><meta name="description" content="Ankademin Cafe is a wonderful place where you can have some Swedish fika and mingle with ducks. Out of luck? Pet a duck."><!-- HEAD_svelte-1f8r09i_END -->
 	</head>
@@ -55,17 +56,19 @@
     <div class="relative"><button class="mb-1 h-8 w-16 rounded-full border-2 border-solid border-black bg-slate-100 dark:border-white dark:bg-slate-800 absolute right-0 -bottom-2"><p class="font-matr text-2xl text-black">dark_mode</p>
 </button></div></nav>
 
-<main><section><h1 class="text-3xl font-h dark:text-emerald-300 text-emerald-800 p-2 undefined">Contact us</h1>
+<main><section class="flex flex-col items-center"><h1 class="text-3xl font-h dark:text-emerald-300 text-emerald-800 p-2 undefined">Contact us</h1>
     <h2 class="text-2xl font-h dark:text-emerald-300 text-emerald-800 p-2 undefined">Address and phone</h2>
-    <p class="p-2 ">Address: Ankans väg 31, Ankholm</p>
-    <p class="p-2 ">Phone: 123-4567</p>
+    <p class="p-2 font-p dark:bg-emerald-900 dark:text-emerald-200 bg-emerald-300 text-emerald-900 border-b border-solid border-black md:w-[30vw] md:p-4 md:m-4 md:rounded-xl md:border w-full">Address: Ankans väg 31, Ankholm</p>
+    <p class="p-2 font-p dark:bg-emerald-900 dark:text-emerald-200 bg-emerald-300 text-emerald-900 border-b border-solid border-black md:w-[30vw] md:p-4 md:m-4 md:rounded-xl md:border w-full">Phone: 123-4567</p>
     <img src="/HTMLCSS-Assignment/images/ankademin-cafe/ankademin_cafe_entrance.webp" alt="outside view of ankademin cafe building"></section>
-  <section><h2 class="text-2xl font-h dark:text-emerald-300 text-emerald-800 p-2 undefined">Leave feedback</h2>
-    <article class="flex w-12 flex-col"><form method="POST" action="/contact/thank-you" class="[&>*]:m-2 [&>*]:rounded"><label for="email-id">Email</label>
+  <section class="flex flex-col items-center"><h2 class="text-2xl font-h dark:text-emerald-300 text-emerald-800 p-2 undefined">Leave feedback</h2>
+    <article class="flex w-12 flex-col self-start"><form method="POST" action="/contact/thank-you" class="[&>*]:m-2 [&>*]:rounded"><label for="email-id">Email</label>
         <input type="text" name="email" id="email-id" placeholder="mail@example.com">
         <select name="feedback-type" id="feedback" class="rounded"><option value="product" class="">Köp av produkt/tjänst</option><option value="about" class="">Frågor om företaget</option><option value="feedback" class="">Synpunkter på webbplats</option></select>
         <textarea name="textarea" id="textarea-id" cols="30" rows="10"></textarea>
-        <button type="submit">Submit</button></form></article></section>
+        
+
+<button class="rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-center text-3xl font-thin transition-all hover:bg-orange-300">Submit</button></form></article></section>
 </main>
 
 <footer class="bg-slate-400 dark:bg-slate-700"><p class="bg-gradient-to-b from-emerald-200 via-slate-300 to-slate-400 p-2 text-center font-logo text-3xl text-black dark:from-emerald-800 dark:via-slate-600 dark:to-slate-700 dark:text-white">Ankademin Cafe
@@ -80,8 +83,8 @@
 </footer>
 
 
-		<script type="module" data-sveltekit-hydrate="m5g8bz">
-			import { start } from "/HTMLCSS-Assignment/_app/immutable/start-81f0485e.js";
+		<script type="module" data-sveltekit-hydrate="1fh4srj">
+			import { start } from "/HTMLCSS-Assignment/_app/immutable/start-70a0a231.js";
 
 			start({
 				env: {},
@@ -95,8 +98,8 @@
 					form: null
 				},
 				paths: {"base":"/HTMLCSS-Assignment","assets":"/HTMLCSS-Assignment"},
-				target: document.querySelector('[data-sveltekit-hydrate="m5g8bz"]').parentNode,
-				version: "1670843012718"
+				target: document.querySelector('[data-sveltekit-hydrate="1fh4srj"]').parentNode,
+				version: "1670843037035"
 			});
 		</script>
 	</div>
