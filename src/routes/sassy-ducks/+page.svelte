@@ -69,9 +69,17 @@ h1 {
 p {
   color: $sassy-duck-color;
   padding: 1rem;
+  @media (min-width: 768px) {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }
+
 main {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(
+    $sassy-duck-background-color-top,
+    $sassy-duck-background-color-bottom
+  );
 }
 
 .sassy-container {
@@ -86,11 +94,18 @@ main {
       linear-gradient(to right, white, $sassy-duck-color) border-box;
     border-radius: 0.5rem;
     border: 10px solid transparent;
+
+    @media (min-width: 768px) {
+      width: 40%;
+    }
   }
   h2 {
     color: blanchedalmond;
     font-size: 38px;
     text-align: center;
+    @media (min-width: 768px) {
+      padding: 3rem;
+    }
   }
   p {
     @include desc;
