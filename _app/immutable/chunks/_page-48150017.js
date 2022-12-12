@@ -1,1 +1,0 @@
-let e="Ankademin Cafe - ";async function t(){return{title:e+"Reviews"}}const a=!1,l=Object.freeze(Object.defineProperty({__proto__:null,load:t,prerender:a},Symbol.toStringTag,{value:"Module"}));export{l as _,t as l,a as p};
