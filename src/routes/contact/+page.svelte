@@ -20,12 +20,11 @@ import Button from "$lib/Button.svelte";
   </section>
   <section class="flex flex-col items-center">
     <H type="h2">Leave feedback</H>
-    <article class="flex w-12 flex-col self-start">
+    <article class="flex w-12 flex-col items-center">
       <form
         method="POST"
         action="/contact/thank-you"
         class="[&>*]:m-2 [&>*]:rounded">
-        <label for="email-id">Email</label>
         <input
           type="text"
           name="email"
