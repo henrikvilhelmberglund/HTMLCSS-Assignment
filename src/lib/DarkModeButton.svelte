@@ -29,12 +29,12 @@ if (browser) {
 </script>
 
 <button
-  class="mb-1 h-8 w-8 rounded border-2 border-anka-50 bg-slate-600 {_class}"
+  class=" m-2 -mb-3 h-12 w-12 rounded-full border-2 border-solid border-black bg-slate-100 dark:border-white dark:bg-slate-800 {_class}"
   on:click={toggle}>
   {#if dark}
-    <p class="font-matr text-2xl text-orange-300">light_mode</p>
+    <p class="font-matr text-4xl text-yellow-300">light_mode</p>
   {:else}
-    <p class="font-matr text-2xl text-orange-300">dark_mode</p>
+    <p class="font-matr text-4xl text-black">dark_mode</p>
   {/if}
 </button>
 
