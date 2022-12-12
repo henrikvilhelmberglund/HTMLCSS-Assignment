@@ -38,6 +38,7 @@
     "@fontsource/material-icons-outlined": "^4.5.4",
     "@fontsource/material-icons-rounded": "^4.5.4",
     "@fontsource/nunito": "^4.5.11",
-    "@fontsource/spartan": "^4.5.8"
+    "@fontsource/spartan": "^4.5.8",
+    "svelte-local-storage-store": "^0.3.2"
   }
 }
