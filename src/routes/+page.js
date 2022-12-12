@@ -1,3 +1,4 @@
+export const prerender = true;
 /** @type {import('./$types').PageLoad} */
 let defaultTitle = "Ankademin Cafe - ";
 export async function load() {
