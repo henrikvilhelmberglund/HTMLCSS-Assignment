@@ -10,8 +10,8 @@ let userDesc;
 let userScore;
 
 function addReview() {
-  users = [
-    ...users,
+  $userReview = [
+    ...$userReview,
     {
       username: userName ? userName : "anonymous user",
       score: userScore ? userScore : 1,
@@ -41,10 +41,13 @@ let users = [
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="dark:bg-emerald-700 md:flex-col">
+  class="dark:bg-emerald-700 md:flex-col md:flex md:items-center">
   <H type="h1">Reviews</H>
   <article class="md:flex md:flex-row  md:flex-wrap">
     {#each users as user}
+      <Review {...user} />
+    {/each}
+    {#each $userReview as user}
       <Review {...user} />
     {/each}
   </article>
