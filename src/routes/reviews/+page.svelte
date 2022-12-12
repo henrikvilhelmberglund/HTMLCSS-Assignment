@@ -19,6 +19,11 @@ function addReview() {
     },
   ];
 }
+
+function deleteCustomReviews() {
+  userReview.set([]);
+}
+
 let users = [
   {
     username: "ducklover69",
@@ -41,7 +46,7 @@ let users = [
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="dark:bg-emerald-700 md:flex-col md:flex md:items-center">
+  class="dark:bg-emerald-700 md:flex md:flex-col md:items-center">
   <H type="h1">Reviews</H>
   <article class="md:flex md:flex-row  md:flex-wrap">
     {#each users as user}
@@ -76,6 +81,12 @@ let users = [
       value="Submit"
       class="m-1 cursor-pointer rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-3xl
       font-thin transition-all hover:bg-orange-300" />
+    <input
+      on:click={deleteCustomReviews}
+      type="submit"
+      value="Delete local storage"
+      class="m-1 cursor-pointer rounded-lg border-2 border-orange-700 bg-red-400 p-2 text-2xl
+      font-thin transition-all hover:bg-red-300" />
   </section>
 </main>
 
