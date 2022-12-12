@@ -19,7 +19,7 @@ import { base } from "$app/paths";
     <A href="{base}/sassy-ducks">Sassy ducks</A>
   </nav>
   <div class="relative">
-    <small class="absolute bottom-0 right-0 pb-2 pr-2 text-right text-white">
+    <small class="absolute bottom-0 right-0 pb-2 pr-2 text-right text-black dark:text-white">
       &copy; Copyright 2022 Ankademin Cafe</small>
   </div>
 </footer>
