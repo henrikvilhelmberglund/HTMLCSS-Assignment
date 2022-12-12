@@ -5,4 +5,4 @@ export async function load() {
     title: defaultTitle + "Reviews",
   };
 }
-export const prerender = false;
+export const prerender = true;
