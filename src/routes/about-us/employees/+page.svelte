@@ -64,9 +64,9 @@ let employees = [
 ];
 </script>
 
-<main class="flex flex-col items-center justify-between bg-emerald-900">
+<main class="flex flex-col items-center justify-between">
   <H type="h1">Employees</H>
-  <P>Tap an employee to view their information.</P>
+  <P type="menu" _class="w-full">Tap an employee to view their information.</P>
   <div class="flex flex-row">
     {#each employees as employee, i}
       <label for="employee{i}">
@@ -80,13 +80,15 @@ let employees = [
         <img
           src="{base}{employee.src}"
           alt={employee.alt}
-          class="w-24 rounded-full" />
+          class="w-24 rounded-full p-0.5 " />
       </label>
     {/each}
   </div>
 
   {#if currentValue !== undefined}
     <EmployeesItem {...employees[currentValue]} />
+  {:else}
+    <div class="h-[37.4vh]" />
   {/if}
 </main>
 
