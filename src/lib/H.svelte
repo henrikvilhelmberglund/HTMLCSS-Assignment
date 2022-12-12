@@ -1,7 +1,7 @@
 <script>
 export let type;
 export let _class;
-let shared = "font-h dark:text-emerald-300 text-emerald-800";
+let shared = "font-h dark:text-emerald-300 text-emerald-800 p-2";
 </script>
 
 {#if type === "h1"}
