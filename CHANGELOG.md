@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.8...v0.0.9) (2022-12-12)
+
+
+### Features
+
+* :art: prettier formatting ([18c2bf3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/18c2bf39226a8b6edb1e6910095c59091381d4bc))
+* :memo: update TODO ([3977897](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/39778976f8d7d9c8558894d6cf2de6ab8d609a52))
+* :sparkles: add global border in app.scss for debugging ([dc1019d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/dc1019d41a6f025579c94adaa1b28c2765943e8d))
+* :sparkles: add prettier + tailwind plugin to sort tailwind utility classes automatically ([b734a58](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b734a5895caca9446caf53e53eabc2accaf3bb4f))
+* :sparkles: add some background color with SCSS ([301b288](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/301b28814306bcb45b73ebe9a05d23d937f9530c))
+* :sparkles: move dark mode to breadcrumbs + prettier formatting ([5999917](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5999917f46478a35e01eb75d8447cd1d7d538cde))
+* **components:** :lipstick: add m-2 ButtonA.svelte ([46e0445](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/46e044596a1a2f4e50def414b1f5971bf44b5a06))
+* **components:** :lipstick: add p-2 in H.svelte ([20387b7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/20387b7c18a12bec6682f6b231068410d0f16658))
+* **components:** :sparkles: add fancy gradients (which don't use transitions apparently) ([34d38f8](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/34d38f8bcd6eb4951cdd23ea98e0028fe588d4fe))
+* **darkmode:** :lipstick: update darkmode A.svelte ([f90c959](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f90c959997eb1239ab0f4c40e99cb3e7f24b236e))
+* **darkmode:** :sparkles: add better support for dark mode ([850b58d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/850b58dfaf7a1d0e3e7c3710f7aff67e11756ba4))
+* **darkmode:** :sparkles: add dark mode to use class in tailwind.config.cjs ([63572a2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/63572a272ca51321518b9b23d4f0db47cd9489bf))
+* **darkmode:** :sparkles: set default dark mode value from browser ([00b3c62](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/00b3c6205c6ce978a72c5d11a151e043f6a9c8eb))
+* **footer:** :lipstick: put copyright text in nav (!?) ([b3e9841](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b3e9841d0bfb3850a1a1cb214436636988a149f4))
+
+
+### Bug Fixes
+
+* :art: remove hard coded bg ([8be1ebe](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8be1ebe82d3fad807143da1893ec98bde89a14b3))
+* :fire: move dark mode from header to breadcrumbs + prettier formatting ([1175bc6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/1175bc6cba5e4ecb4fa8ac76942ed32d726e8323))
+* :fire: remove own color system which was going to confuse me anyway ([50ff046](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/50ff046dc62a7fb00ca7a0e6b033b604e47d89ee))
+* :fire: remove unneccessary classes (they are now in H component) ([cf0e34f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/cf0e34fc2c98f9256f8ea6c0eea0389c1ad1d369))
+* :sparkles: WIP: fix button clicking in desktop mode ([b219028](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b2190282f18414f959c5c2a590b4bbe448406cdd))
+* **components:** :bug: 100vw creates a horizontal scrollbar so use w-full (100%) instead ([0cbbe87](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0cbbe878b4dc3993f9fc2de7f3bae06620ce9ced))
+* **components:** :bug: fix typo ([ad3af55](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/ad3af55905cf0d78f97b3ddcfbebfcbc33d11d9f))
+* **components:** :fire: remove unused styles ([7e03edc](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7e03edca7ee173e77cf5a4994ee9b9cc0c2392a9))
+* **components:** :fire: remove unused styles ([f425ecc](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f425ecc1a954d57f8368b102dd0b11ed93f581ab))
+
 ### [0.0.8](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.7...v0.0.8) (2022-12-10)
 
 
