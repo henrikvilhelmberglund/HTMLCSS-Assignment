@@ -11,16 +11,20 @@ import P from "./P.svelte";
 </script>
 
 <article
-  class="card lg:card-side bg-base-100 m-2 flex flex-col rounded bg-emerald-300 shadow-xl">
-  <H type="h3" class="card-title text-center text-2xl">{name}</H>
-  <figure><img src="{base}{src}" {alt} class="w-64" /></figure>
-  <div class="card-body">
-    <div class="card-actions justify-end">
-      <P type="employee" class="">{role}</P>
-      <a href="mailto:{email}" class="cursor-pointer underline">{email}</a>
-      <P type="employee" class="">{desc}</P>
-    </div>
-  </div>
+  class="m-2 flex flex-col items-center rounded bg-emerald-300   shadow-xl dark:bg-emerald-900 dark:text-emerald-100">
+  <H type="h2" _class="text-center">{name}</H>
+  <figure>
+    <img
+      src="{base}{src}"
+      {alt}
+      class="w-[80vw] rounded-3xl border-4 border-solid  border-black shadow-xl" />
+  </figure>
+  <P type="employee" _class="text-lg font-bold">{role}</P>
+  <a
+    href="mailto:{email}"
+    class="cursor-pointer p-1 text-blue-800 underline dark:text-sky-300"
+    >{email}</a>
+  <P type="employee" class="">{desc}</P>
 </article>
 
 <style>
