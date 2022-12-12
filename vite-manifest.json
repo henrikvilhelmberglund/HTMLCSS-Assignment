@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-2894198a.js",
+    "file": "_app/immutable/start-263d46de.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -224,7 +224,7 @@
     ]
   },
   "src/routes/sassy-ducks/+page.svelte": {
-    "file": "_app/immutable/components/pages/sassy-ducks/_page.svelte-d1958150.js",
+    "file": "_app/immutable/components/pages/sassy-ducks/_page.svelte-abcb6663.js",
     "src": "src/routes/sassy-ducks/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -509,7 +509,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/10.js": {
-    "file": "_app/immutable/chunks/10-1151df08.js",
+    "file": "_app/immutable/chunks/10-d7c559fc.js",
     "src": ".svelte-kit/generated/nodes/10.js",
     "isDynamicEntry": true,
     "imports": [
