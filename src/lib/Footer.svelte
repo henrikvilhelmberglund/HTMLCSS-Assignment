@@ -17,10 +17,10 @@ import { base } from "$app/paths";
     <A href="{base}/reviews">Reviews</A>
     <A href="{base}/contact">Contact</A>
     <A href="{base}/sassy-ducks">Sassy ducks</A>
+    <small class="block pr-2 text-right text-white"
+      >&copy; Copyright 2022 Ankademin Cafe</small>
   </nav>
 
-  <small class="block pr-2 text-right text-white"
-    >&copy; Copyright 2022 Ankademin Cafe</small>
 </footer>
 
 <style>
