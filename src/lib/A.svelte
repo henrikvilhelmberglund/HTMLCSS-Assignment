@@ -12,7 +12,7 @@ export let href;
 {:else}
   <a
     {href}
-    class="h-10 rounded-md border-2 border-solid border-slate-300 bg-slate-400 p-1 text-base hover:border-emerald-500 hover:bg-emerald-200 dark:border-slate-600 dark:text-white
+    class="h-10 rounded-md border-2 border-solid border-slate-300 bg-slate-400 dark:bg-slate-700 p-1 text-base hover:border-emerald-500 hover:bg-emerald-200 dark:border-slate-600 dark:text-white
     dark:hover:border-emerald-500 ">
     <slot />
   </a>
