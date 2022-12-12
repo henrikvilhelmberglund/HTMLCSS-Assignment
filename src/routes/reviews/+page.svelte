@@ -3,6 +3,22 @@ import Review from "$lib/Review.svelte";
 import { fly } from "svelte/transition";
 import P from "$lib/P.svelte";
 import H from "$lib/H.svelte";
+import StarButton from "$lib/StarButton.svelte";
+import { userReview } from "$lib/stores.js";
+let userName;
+let userDesc;
+let userScore;
+
+function addReview() {
+  users = [
+    ...users,
+    {
+      username: userName ? userName : "anonymous user",
+      score: userScore ? userScore : 1,
+      desc: userDesc ? userDesc : "empty message",
+    },
+  ];
+}
 let users = [
   {
     username: "ducklover69",
@@ -25,28 +41,38 @@ let users = [
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="dark:bg-emerald-700">
+  class="dark:bg-emerald-700 md:flex-col">
   <H type="h1">Reviews</H>
-  {#each users as user}
-    <Review {...user} />
-  {/each}
+  <article class="md:flex md:flex-row  md:flex-wrap">
+    {#each users as user}
+      <Review {...user} />
+    {/each}
+  </article>
 
-  <section class="w-32 flex-col md:flex">
-    <P>Add a review!</P>
-    <form action="">
-      <input type="text" id="username" placeholder="User name" />
-      <textarea
-        name="review"
-        id="review-id"
-        cols="30"
-        rows="4"
-        placeholder="Description" />
-      <input
-        type="submit"
-        value="Submit"
-        class="rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-3xl font-thin transition-all
-      hover:bg-orange-300" />
-    </form>
+  <section class="w-32 flex-col p-4 md:flex md:w-64 md:flex-col">
+    <P _class="text-xl">Add a review! 👍</P>
+    <StarButton bind:score={userScore} />
+
+    <input
+      type="text"
+      id="username"
+      placeholder="User name"
+      class="m-1"
+      bind:value={userName} />
+    <textarea
+      bind:value={userDesc}
+      name="review"
+      id="review-id"
+      cols="30"
+      rows="4"
+      placeholder="Description"
+      class="m-1" />
+    <input
+      on:click={addReview}
+      type="submit"
+      value="Submit"
+      class="m-1 cursor-pointer rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-3xl
+      font-thin transition-all hover:bg-orange-300" />
   </section>
 </main>
 

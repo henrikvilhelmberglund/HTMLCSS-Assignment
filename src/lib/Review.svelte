@@ -4,12 +4,13 @@ export let username;
 export let score;
 export let desc;
 import P from "./P.svelte";
+
 </script>
 
 <article
-  class="flex flex-col border-t border-solid border-black p-4 dark:bg-emerald-800">
+  class="m-4 flex w-72 flex-col rounded-lg border border-solid border-black bg-slate-200 p-4 dark:bg-emerald-800">
   <P type="review" _class="text-xl dark:text-emerald-200">{username}</P>
-  <section class="flex flex-row">
+  <section class="flex flex-row ">
     {#each Array(score + 1) as _, i}
       {#if i !== 0 && i % 2 === 0}
         <svg
