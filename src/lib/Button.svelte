@@ -67,6 +67,14 @@ import { menuClicked } from "./stores.js";
     hover:bg-orange-300">
     <slot />
   </button>
+{/if}
+
+{#if type === "submit"}
+  <button
+    class="rounded-lg border-2 border-orange-700 bg-orange-400 p-2 text-center text-3xl font-thin transition-all
+  hover:bg-orange-300">
+    <slot />
+  </button>
 {:else}
   warning!!!!!!! empty button!!!!!!
 {/if}
