@@ -13,11 +13,15 @@ let shared =
   <p class="p-2 text-center {shared} {_class}">
     <slot />
   </p>
-{:else if type === "history"}
-  <p class="p-2 {shared} {_class}">
-    <slot />
-  </p>
-{:else if type === "motto"}
+  {:else if type === "history"}
+    <p class="p-2 {shared} {_class}">
+      <slot />
+    </p>
+  {:else if type === "contact"}
+    <p class="p-2 {shared} {_class}">
+      <slot />
+    </p>
+  {:else if type === "motto"}
   <p class="p-2 font-h font-bold {_class}">
     <slot />
   </p>
