@@ -505,12 +505,12 @@
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-50ca6dd0.css",
-    "src": "src/routes/+layout.css"
-  },
   "src/routes/sassy-ducks/+page.css": {
     "file": "_app/immutable/assets/_page-4449bd9e.css",
     "src": "src/routes/sassy-ducks/+page.css"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-50ca6dd0.css",
+    "src": "src/routes/+layout.css"
   }
 }
