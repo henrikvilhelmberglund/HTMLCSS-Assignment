@@ -15,7 +15,7 @@ import { fly } from "svelte/transition";
       media="(max-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior.webp"
       width="412"
-      />
+      height="273" />
     <source
       media="(min-width: 460px)"
       srcset="{base}/images/ankademin-cafe/ankademin_cafe_interior_big.jpg"
