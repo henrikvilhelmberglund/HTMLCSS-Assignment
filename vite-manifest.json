@@ -27,6 +27,10 @@
     "file": "_app/immutable/assets/nunito-latin-ext-400-normal-a8aed46d.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-latin-ext-400-normal.woff2"
   },
+  "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2"
+  },
   "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2": {
     "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-1a2694ac.woff2",
     "src": "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2"
@@ -34,10 +38,6 @@
   "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2": {
     "file": "_app/immutable/assets/material-icons-rounded-all-400-normal-91000ff3.woff2",
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2"
-  },
-  "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
-    "src": "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff": {
     "file": "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -505,12 +505,12 @@
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
-  "src/routes/sassy-ducks/+page.css": {
-    "file": "_app/immutable/assets/_page-4449bd9e.css",
-    "src": "src/routes/sassy-ducks/+page.css"
-  },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-50ca6dd0.css",
     "src": "src/routes/+layout.css"
+  },
+  "src/routes/sassy-ducks/+page.css": {
+    "file": "_app/immutable/assets/_page-4449bd9e.css",
+    "src": "src/routes/sassy-ducks/+page.css"
   }
 }
