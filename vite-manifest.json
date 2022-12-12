@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-878363ba.js",
+    "file": "_app/immutable/start-359cc7d3.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -185,7 +185,7 @@
     ]
   },
   "src/routes/menu/+page.svelte": {
-    "file": "_app/immutable/components/pages/menu/_page.svelte-45778341.js",
+    "file": "_app/immutable/components/pages/menu/_page.svelte-069b7245.js",
     "src": "src/routes/menu/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -470,7 +470,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-859e78f3.js",
+    "file": "_app/immutable/chunks/7-8d74fadf.js",
     "src": ".svelte-kit/generated/nodes/7.js",
     "isDynamicEntry": true,
     "imports": [
@@ -505,12 +505,12 @@
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
-  "src/routes/sassy-ducks/+page.css": {
-    "file": "_app/immutable/assets/_page-4449bd9e.css",
-    "src": "src/routes/sassy-ducks/+page.css"
-  },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-826f9d3d.css",
     "src": "src/routes/+layout.css"
+  },
+  "src/routes/sassy-ducks/+page.css": {
+    "file": "_app/immutable/assets/_page-4449bd9e.css",
+    "src": "src/routes/sassy-ducks/+page.css"
   }
 }
