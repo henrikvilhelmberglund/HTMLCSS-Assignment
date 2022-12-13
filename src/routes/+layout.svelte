@@ -24,10 +24,14 @@ import "@fontsource/material-icons-rounded";
 
 <Header />
 <Breadcrumbs />
-{#key $page}
-  <Transition>
-    <slot />
-  </Transition>
-{/key}
+{#if $page.route.id === null}
+  <slot />
+{:else}
+  {#key $page}
+    <Transition>
+      <slot />
+    </Transition>
+  {/key}
+{/if}
 
 <Footer />
