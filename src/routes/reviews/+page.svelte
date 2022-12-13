@@ -5,6 +5,7 @@ import P from "$lib/P.svelte";
 import H from "$lib/H.svelte";
 import StarButton from "$lib/StarButton.svelte";
 import { userReview } from "$lib/stores.js";
+import Transition from "$lib/Transition.svelte";
 let userName;
 let userDesc;
 let userScore;
@@ -53,13 +54,16 @@ let users = [
   out:fly={{ y: 5, duration: 200 }}
   class="dark:bg-emerald-700 md:flex md:flex-col md:items-center">
   <H type="h1">Reviews</H>
-  <article class="md:flex md:flex-row  md:flex-wrap break-words ">
+  <article class="break-words md:flex  md:flex-row md:flex-wrap ">
     {#each users as user}
       <Review {...user} />
     {/each}
+
     {#each $userReview as user}
-      <Review {...user} />
-    {/each}
+    <Transition>
+        <Review {...user} />
+      </Transition>
+      {/each}
   </article>
 
   <aside class="w-32 flex-col p-4 md:flex md:w-64 md:flex-col">
