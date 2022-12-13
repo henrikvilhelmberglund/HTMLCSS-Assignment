@@ -1,4 +1,8 @@
 {
+  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
+    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
+  },
   "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
@@ -14,10 +18,6 @@
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2"
-  },
-  "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
-    "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/nunito/files/nunito-vietnamese-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-vietnamese-400-normal-7ed3b3e7.woff2",
@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-2ef32c9c.js",
+    "file": "_app/immutable/start-f2b77f88.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -163,7 +163,7 @@
     ]
   },
   "src/routes/contact/+page.svelte": {
-    "file": "_app/immutable/components/pages/contact/_page.svelte-fbe32437.js",
+    "file": "_app/immutable/components/pages/contact/_page.svelte-89e48dd4.js",
     "src": "src/routes/contact/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -464,7 +464,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-457e9b77.js",
+    "file": "_app/immutable/chunks/5-34999bf0.js",
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
