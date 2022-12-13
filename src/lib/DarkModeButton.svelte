@@ -30,11 +30,11 @@ if (browser) {
 }
 </script>
 
+<div class="flex items-center justify-center">
 <button
   aria-label={dark ? "toggle: enable light mode" : "toggle: enable dark mode"}
   class="mb-1 h-8 w-16 rounded-full border-2 border-solid border-black bg-slate-100 dark:border-white dark:bg-slate-800 md:mr-6 lg:mb-28 lg:h-36 lg:w-36 lg:rounded-lg {_class}"
   on:click={toggle}>
-  <div class="flex items-center justify-center">
     {#if dark}
       <!-- <span class="font-matr text-2xl text-yellow-300 lg:text-8xl"
       >light_mode</span> -->
@@ -43,8 +43,8 @@ if (browser) {
       <!-- <span class="font-matr text-2xl text-black lg:text-8xl">dark_mode</span> -->
       <DarkSVG />
     {/if}
-  </div>
-</button>
+  </button>
+</div>
 
 <style>
 </style>
