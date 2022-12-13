@@ -1,6 +1,6 @@
 <script>
-export let type;
-export let _class = "";
+export let type = undefined;
+export let _class = undefined;
 let shared =
   "font-p dark:bg-emerald-900 dark:text-emerald-200 bg-emerald-300 text-emerald-900 border-b border-solid border-black md:w-[30vw] md:p-4 md:m-4 md:rounded-xl md:border";
 </script>

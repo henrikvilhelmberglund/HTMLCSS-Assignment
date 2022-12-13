@@ -1,9 +1,9 @@
 <script>
 import { base } from "$app/paths";
 import { scale, blur } from "svelte/transition";
-export let type;
-export let src;
-export let alt;
+export let type = undefined;
+export let src = undefined;
+export let alt = undefined;
 let clicked = false;
 import { menuClicked } from "./stores.js";
 </script>
