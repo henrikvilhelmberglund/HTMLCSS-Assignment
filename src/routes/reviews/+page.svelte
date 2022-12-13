@@ -53,7 +53,7 @@ let users = [
   out:fly={{ y: 5, duration: 200 }}
   class="dark:bg-emerald-700 md:flex md:flex-col md:items-center">
   <H type="h1">Reviews</H>
-  <article class="md:flex md:flex-row  md:flex-wrap">
+  <article class="md:flex md:flex-row  md:flex-wrap break-words ">
     {#each users as user}
       <Review {...user} />
     {/each}
