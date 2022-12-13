@@ -27,7 +27,7 @@ let shared =
   </p>
 {:else if type === "header"}
   <p
-    class="relative bottom-1.5
+    class="relative 
   md:bottom-4 {_class}">
     <slot />
   </p>
