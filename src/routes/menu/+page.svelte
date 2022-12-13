@@ -5,7 +5,6 @@ import MenuItem from "$lib/MenuItem.svelte";
 import { base } from "$app/paths";
 import { fly } from "svelte/transition";
 import H from "$lib/H.svelte";
-import { menuClicked } from "$lib/stores.js";
 
 let menuItems = [
   {
@@ -108,8 +107,7 @@ let menuItems = [
 
   <ButtonA type="book" />
 
-  <div class="m-4 w-full bg-emerald-500 shadow-lg ">
-    <div>
+  <aside class="m-4 w-full bg-emerald-500 shadow-lg ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -121,8 +119,7 @@ let menuItems = [
           stroke-width="2"
           d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
       <span>Swipe down to view our menu.</span>
-    </div>
-  </div>
+  </aside>
 
   {#each menuItems as menuItem}
     <section class="md:flex md:w-full">
