@@ -1,4 +1,6 @@
 <script>
+import DarkSVG from "$lib/DarkSVG.svelte";
+import LightSVG from "$lib/LightSVG.svelte";
 import { darkStore } from "./stores.js";
 import { browser } from "$app/environment";
 let dark = false;
@@ -29,14 +31,18 @@ if (browser) {
 </script>
 
 <button
-  class="mb-1 h-8 w-16 rounded-full border-2 border-solid border-black bg-slate-100 dark:border-white dark:bg-slate-800 lg:mb-28 md:mr-6 lg:h-36 lg:w-36 lg:rounded-lg {_class}"
+  class="mb-1 h-8 w-16 rounded-full border-2 border-solid border-black bg-slate-100 dark:border-white dark:bg-slate-800 md:mr-6 lg:mb-28 lg:h-36 lg:w-36 lg:rounded-lg {_class}"
   on:click={toggle}>
-  {#if dark}
-    <span class="font-matr text-2xl text-yellow-300 lg:text-8xl"
-      >light_mode</span>
-  {:else}
-    <span class="font-matr text-2xl text-black lg:text-8xl">dark_mode</span>
-  {/if}
+  <div class="flex items-center justify-center">
+    {#if dark}
+      <!-- <span class="font-matr text-2xl text-yellow-300 lg:text-8xl"
+      >light_mode</span> -->
+      <LightSVG />
+    {:else}
+      <!-- <span class="font-matr text-2xl text-black lg:text-8xl">dark_mode</span> -->
+      <DarkSVG />
+    {/if}
+  </div>
 </button>
 
 <style>
