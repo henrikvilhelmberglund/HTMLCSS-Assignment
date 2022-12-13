@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <link rel="icon" href="/HTMLCSS-Assignment/favicon.png" />
     <meta name="viewport" content="width=device-width" />
-    <meta http-equiv="content-security-policy" content="object-src 'none'; script-src 'self' 'sha256-Q2xdNrEpEG4wesBy88r43vDsScISCVsjH7RjSsCB0iw='">
+    <meta http-equiv="content-security-policy" content="object-src 'none'; script-src 'self' 'sha256-dTBFlg5UOU1KGlGGocpH19dma2uVCtvrQ03fn2Hk5ro='">
 		<link href="/HTMLCSS-Assignment/_app/immutable/assets/_layout-e07b020a.css" rel="stylesheet">
-		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/start-b76838a9.js">
+		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/start-d38f5b53.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/index-2f42800f.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/singletons-5cbc3285.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/index-eae6c1dc.js">
@@ -17,7 +17,7 @@
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/stores-8fdab04e.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/modules/pages/_layout.js-7b9cbfbc.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/_layout-8d2a742b.js">
-		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/components/pages/reviews/_page.svelte-0776c866.js">
+		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/components/pages/reviews/_page.svelte-99e0f918.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/index-98bdf23b.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/chunks/H-56060685.js">
 		<link rel="modulepreload" href="/HTMLCSS-Assignment/_app/immutable/modules/pages/reviews/_page.js-4600dba8.js">
@@ -72,24 +72,24 @@
 
   <aside class="w-32 flex-col p-4 md:flex md:w-64 md:flex-col"><p class="text-xl">Add a review! 👍</p>
     <section class="flex flex-row">
-      <button aria-label="0.5 star"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
-        </button><button aria-label="1 star"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+      <button aria-label="0.5 star"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+        </button><button aria-label="1 star"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
         </button>
       
-      <button aria-label="1.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
-        </button><button aria-label="2 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+      <button aria-label="1.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+        </button><button aria-label="2 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
         </button>
       
-      <button aria-label="2.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
-        </button><button aria-label="3 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+      <button aria-label="2.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+        </button><button aria-label="3 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
         </button>
       
-      <button aria-label="3.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
-        </button><button aria-label="4 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+      <button aria-label="3.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+        </button><button aria-label="4 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
         </button>
       
-      <button aria-label="4.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
-        </button><button aria-label="5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+      <button aria-label="4.5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
+        </button><button aria-label="5 stars"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" class="fill-slate-400 star -scale-x-100"><path d="m12 .587 3.668 7.568L24 9.306l-6.064 5.828 1.48 8.279L12 19.446l-7.417 3.967 1.481-8.279L0 9.306l8.332-1.151z"></path></svg>
         </button>
       
 </section>
@@ -112,8 +112,8 @@
 </footer>
 
 
-		<script type="module" data-sveltekit-hydrate="oi4bzw">
-			import { start } from "/HTMLCSS-Assignment/_app/immutable/start-b76838a9.js";
+		<script type="module" data-sveltekit-hydrate="1rjtxjw">
+			import { start } from "/HTMLCSS-Assignment/_app/immutable/start-d38f5b53.js";
 
 			start({
 				env: {},
@@ -127,8 +127,8 @@
 					form: null
 				},
 				paths: {"base":"/HTMLCSS-Assignment","assets":"/HTMLCSS-Assignment"},
-				target: document.querySelector('[data-sveltekit-hydrate="oi4bzw"]').parentNode,
-				version: "1670939059974"
+				target: document.querySelector('[data-sveltekit-hydrate="1rjtxjw"]').parentNode,
+				version: "1670939090869"
 			});
 		</script>
 	</div>
