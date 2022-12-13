@@ -124,7 +124,7 @@ I min +layout.svelte hade jag header, breadcrumbs, div med transition runt slot,
 
 # Tailwind CSS
 
-## Ett CSS-ramv... ?
+#### Ett CSS-ramv... ?
 
 ![](tailwindCSS.png) {."fragment"}
 
@@ -132,9 +132,9 @@ I min +layout.svelte hade jag header, breadcrumbs, div med transition runt slot,
 
 # Tailwind CSS
 
-## Varför Tailwind istället för Bootstrap?
+#### Varför Tailwind istället för Bootstrap?
 
-### Jag frågade ChatGPT (gav en bra review för mitt kafe så)
+###### Jag frågade ChatGPT (gav en bra review för mitt kafe så)
 
 ---
 
@@ -155,7 +155,7 @@ Overall: mer flexibelt och en mer customizable approach än Bootstrap
 
 # Tailwind CSS
 
-## Vad tyckte jag?
+#### Vad tyckte jag?
 
 - Gillade mer ju mer jag använde {."fragment"}
 - Kunde stänga av hjärnan och bara enkelt prova mig fram tills jag blev nöjd {."fragment"}
@@ -198,7 +198,7 @@ Overall: mer flexibelt och en mer customizable approach än Bootstrap
 
 # Utmaningar
 
-## Jobba själv {."fragment"}
+#### Jobba själv {."fragment"}
 - saker tar tid {."fragment"}
 - är förvirrad ensam, har ingen att bolla med {."fragment"}
 - lite tråkigt för inga git merge conflicts {."fragment"}
@@ -207,7 +207,7 @@ Overall: mer flexibelt och en mer customizable approach än Bootstrap
 
 # Utmaningar
 
-## Buggar {."fragment"}
+#### Buggar {."fragment"}
 
 - har spenderat x antal timmar att leta/fixa buggar {."fragment"}
 - tomt srcset-attribut = sidan bygger inte längre {."fragment"}
@@ -218,7 +218,7 @@ Overall: mer flexibelt och en mer customizable approach än Bootstrap
 
 # Utmaningar
 
-## Design/responsivitet/accessibility
+#### Design/responsivitet/accessibility
 
 - fortfarande lite ovant! {."fragment"}
 - men fanns bra verktyg (t.ex Lighthouse, Accessibility insights for the web, w3c-validering) {."fragment"}
