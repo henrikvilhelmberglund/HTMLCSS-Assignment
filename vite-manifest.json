@@ -7,13 +7,13 @@
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
-    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
@@ -94,7 +94,7 @@
       "_stores-8fdab04e.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-e2408e05.css"
+      "_app/immutable/assets/_layout-d68e34df.css"
     ],
     "assets": [
       "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -517,12 +517,12 @@
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-e2408e05.css",
-    "src": "src/routes/+layout.css"
-  },
   "src/routes/sassy-ducks/+page.css": {
     "file": "_app/immutable/assets/_page-0496bf28.css",
     "src": "src/routes/sassy-ducks/+page.css"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-d68e34df.css",
+    "src": "src/routes/+layout.css"
   }
 }
