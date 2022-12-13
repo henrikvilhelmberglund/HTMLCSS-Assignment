@@ -1,5 +1,5 @@
 <svg
-  class="text-2xl text-yellow-300 lg:text-8xl "
+  class="text-2xl text-yellow-300 lg:text-8xl m-auto"
   xmlns="http://www.w3.org/2000/svg"
   style="vertical-align: -0.125em;"
   width="1em"

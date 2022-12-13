@@ -1,5 +1,5 @@
 <svg
-  class="text-2xl text-black lg:text-8xl"
+  class="text-2xl text-black lg:text-8xl m-auto"
   xmlns="http://www.w3.org/2000/svg"
   width="1em"
   height="1em"
