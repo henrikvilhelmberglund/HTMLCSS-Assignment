@@ -4,9 +4,12 @@
 //   outline: 1px solid #f00 !important;
 // }
 
-// * {
-//   @apply transition-all;
-// }
+* {
+  @apply transition-all;
+  .star {
+    @apply transition-none;
+  }
+}
 
 body {
   @apply bg-emerald-200;
