@@ -5,7 +5,7 @@ import DarkModeButton from "./DarkModeButton.svelte";
 import { darkStore } from "./stores.js";
 </script>
 
-{#if $page.route.id}
+{#if !$page.error}
   <nav
     aria-label="secondary-navigation"
     class="bg-gradient-to-b from-sky-200 to-emerald-200 py-2 text-black dark:bg-emerald-800 dark:from-sky-900 dark:to-emerald-800 dark:text-white">
