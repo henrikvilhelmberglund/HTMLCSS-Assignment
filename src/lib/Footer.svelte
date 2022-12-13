@@ -6,7 +6,7 @@ import { base } from "$app/paths";
 
 <footer class="bg-slate-400 dark:bg-slate-700">
   <p
-    class="bg-gradient-to-b from-emerald-200 via-slate-300 to-slate-400 p-2 text-center font-logo text-3xl text-black dark:from-emerald-800 dark:via-slate-600 dark:to-slate-700 dark:text-white">
+    class="bg-gradient-to-b from-emerald-200 via-emerald-100 to-slate-400 p-2 text-center font-logo text-3xl text-black dark:from-emerald-800 dark:via-slate-600 dark:to-slate-700 dark:text-white">
     Ankademin Cafe
   </p>
   <nav
