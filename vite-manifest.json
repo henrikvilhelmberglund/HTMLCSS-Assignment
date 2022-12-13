@@ -7,13 +7,13 @@
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
-    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
+    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-3a7919b0.js",
+    "file": "_app/immutable/start-eeb3fa8d.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -212,7 +212,7 @@
     ]
   },
   "src/routes/reviews/+page.svelte": {
-    "file": "_app/immutable/components/pages/reviews/_page.svelte-4ba9c5eb.js",
+    "file": "_app/immutable/components/pages/reviews/_page.svelte-bf3402af.js",
     "src": "src/routes/reviews/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -500,7 +500,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/9.js": {
-    "file": "_app/immutable/chunks/9-63cfba25.js",
+    "file": "_app/immutable/chunks/9-5688f5ff.js",
     "src": ".svelte-kit/generated/nodes/9.js",
     "isDynamicEntry": true,
     "imports": [
