@@ -6,6 +6,7 @@ import Footer from "$lib/Footer.svelte";
 import Header from "$lib/Header.svelte";
 import Breadcrumbs from "$lib/Breadcrumbs.svelte";
 import Transition from "$lib/Transition.svelte";
+import { darkStore } from "$lib/stores.js";
 
 // fonts
 import "@fontsource/cherry-swash";
@@ -22,7 +23,7 @@ import "@fontsource/nunito";
 
 <Header />
 <Breadcrumbs />
-{#key $page}
+{#key $page | $darkStore}
   <Transition>
     <slot />
   </Transition>
