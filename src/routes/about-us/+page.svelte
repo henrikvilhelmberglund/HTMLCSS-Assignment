@@ -9,9 +9,9 @@ import H from "$lib/H.svelte";
 <main
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}
-  class="flex flex-col items-center justify-between ">
+  class="flex flex-col items-center justify-between">
   <H type="h1">About us</H>
-  <section>
+  <section class="flex flex-col items-center justify-between">
     <H type="h2">History</H>
     <P type="history">
       We love ducks. We also love fika. That's why we created Ankademin Cafe in
@@ -25,7 +25,7 @@ import H from "$lib/H.svelte";
       we hope to see you in Ankademin Cafe soon!
     </P>
   </section>
-  <section>
+  <section class="flex flex-col items-center justify-between">
     <H type="h2">Motto</H>
     <Motto />
     <P type="history">
@@ -38,7 +38,7 @@ import H from "$lib/H.svelte";
       ducks. That's all there is to it!
     </P>
   </section>
-  <section>
+  <section class="flex flex-col items-center justify-between">
     <H type="h2">Employees</H>
     <P type="history">We created a separate page to introduce our employees.</P>
     <ButtonA type="employees" />
