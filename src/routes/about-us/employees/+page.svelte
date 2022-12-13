@@ -3,6 +3,15 @@ import P from "$lib/P.svelte";
 import H from "$lib/H.svelte";
 import EmployeesItem from "$lib/EmployeesItem.svelte";
 import { base } from "$app/paths";
+import {
+  fade,
+  blur,
+  fly,
+  slide,
+  scale,
+  draw,
+  crossfade,
+} from "svelte/transition";
 let currentValue;
 let employees = [
   {
@@ -86,7 +95,14 @@ let employees = [
   </div>
 
   {#if currentValue !== undefined}
-    <EmployeesItem {...employees[currentValue]} />
+    {#key currentValue}
+      <div
+        class="transition-wrapper"
+        in:scale={{ y: -5, duration: 200, delay: 200 }}
+        out:scale={{ y: 5, duration: 200 }}>
+        <EmployeesItem {...employees[currentValue]} />
+      </div>
+    {/key}
   {:else}
     <div class="h-[37.4vh]" />
   {/if}
