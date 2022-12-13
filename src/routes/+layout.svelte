@@ -24,7 +24,6 @@ import "@fontsource/material-icons-rounded";
 
 <Header />
 <Breadcrumbs />
-<slot />
 {#key $page}
   <Transition>
     <slot />
