@@ -1,6 +1,6 @@
 <script>
 import { base } from "$app/paths";
-import { fade } from "svelte/transition";
+import { scale, blur } from "svelte/transition";
 export let type;
 export let src;
 export let alt;
@@ -21,15 +21,17 @@ import { menuClicked } from "./stores.js";
       }}
       class="relative right-16 top-14 flex-1">
       <div
+        in:blur={{ duration: 300, amount: 20 }}
+        out:blur={{ duration: 100, amount: 20 }}
         class="fixed top-0 right-0 left-0 bottom-0 h-[100vh] w-[100vw] md:fixed md:bottom-0 md:top-0 md:right-0 md:left-0 md:h-[100vh] md:w-[100vw]  {$menuClicked
-          ? 'backdrop-blur-lg backdrop-brightness-50'
+          ? 'backdrop-brightness-50'
           : ''}" />
     </div>
   {/if}
   {#if clicked}
     <div
-      in:fade={{ duration: 300 }}
-      out:fade={{ duration: 100 }}
+      in:scale={{ duration: 300 }}
+      out:scale={{ duration: 100 }}
       on:click={() => {
         clicked = false;
         menuClicked.set(false);
