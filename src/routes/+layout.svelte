@@ -11,8 +11,6 @@ import Transition from "$lib/Transition.svelte";
 import "@fontsource/cherry-swash";
 import "@fontsource/spartan";
 import "@fontsource/nunito";
-import "@fontsource/material-icons-outlined";
-import "@fontsource/material-icons-rounded";
 </script>
 
 <svelte:head>
