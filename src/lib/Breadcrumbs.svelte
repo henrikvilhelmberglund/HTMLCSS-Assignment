@@ -16,7 +16,7 @@ import { darkStore } from "./stores.js";
         {#if $page.route.id.length === 1}
           <a
             href="{base}/{url}"
-            class="m-1 ml-0  rounded border border-black bg-emerald-500 p-1 underline dark:text-black">
+            class="m-1 ml-0  rounded border border-black bg-emerald-400 p-1 underline dark:text-black">
             Home</a>
         {:else}
           <a
@@ -29,7 +29,7 @@ import { darkStore } from "./stores.js";
           {#if $page.route.id.length !== 1}
             <a
               href="{base}/{url}"
-              class="m-1 rounded border border-black bg-emerald-500 p-1 underline dark:text-black">
+              class="m-1 rounded border border-black bg-emerald-400 p-1 underline dark:text-black">
               {url}</a>
           {/if}
         {:else}
@@ -40,7 +40,7 @@ import { darkStore } from "./stores.js";
       {:else if i === 2}
         <a
           href="{base}{$page.route.id}"
-          class="m-1 rounded border border-black bg-emerald-500 p-1 underline dark:text-black">
+          class="m-1 rounded border border-black bg-emerald-400 p-1 underline dark:text-black">
           {url}</a>
       {/if}
     {/each}
