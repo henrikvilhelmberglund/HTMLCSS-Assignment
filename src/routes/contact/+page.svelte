@@ -30,12 +30,21 @@ import Button from "$lib/Button.svelte";
           name="email"
           id="email-id"
           placeholder="mail@example.com" />
-        <select name="feedback-type" id="feedback" class="rounded">
+        <select
+          name="feedback-type"
+          aria-label="feedback type selector"
+          id="feedback"
+          class="rounded">
           <option value="product" class=""> Köp av produkt/tjänst</option>
           <option value="about" class="">Frågor om företaget</option>
           <option value="feedback" class="">Synpunkter på webbplats</option>
         </select>
-        <textarea name="textarea" id="textarea-id" cols="30" rows="10" />
+        <textarea
+          name="textarea"
+          aria-label="feedback input text area"
+          id="textarea-id"
+          cols="30"
+          rows="10" />
         <Button type="submit">Submit</Button>
       </form>
     </article>

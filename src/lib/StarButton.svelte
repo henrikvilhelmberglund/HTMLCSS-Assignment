@@ -6,7 +6,9 @@ export let score = 0;
   {#each Array(11) as _, i}
     {#if i !== 0}
       {#if i % 2 === 0}
-        <button on:click={() => (score = i)}>
+        <button
+          aria-label={i / 2 === 1 ? i / 2 + " star" : i / 2 + " stars"}
+          on:click={() => (score = i)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="12"
@@ -18,7 +20,9 @@ export let score = 0;
         </button>
       {/if}
       {#if i % 2 === 1}
-        <button on:click={() => (score = i)}>
+        <button
+          aria-label={i / 2 === 0.5 ? i / 2 + " star" : i / 2 + " stars"}
+          on:click={() => (score = i)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="12"

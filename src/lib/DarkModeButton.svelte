@@ -31,6 +31,7 @@ if (browser) {
 </script>
 
 <button
+  aria-label={dark ? "toggle: enable light mode" : "toggle: enable dark mode"}
   class="mb-1 h-8 w-16 rounded-full border-2 border-solid border-black bg-slate-100 dark:border-white dark:bg-slate-800 md:mr-6 lg:mb-28 lg:h-36 lg:w-36 lg:rounded-lg {_class}"
   on:click={toggle}>
   <div class="flex items-center justify-center">
