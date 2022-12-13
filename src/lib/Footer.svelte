@@ -1,5 +1,6 @@
 <script>
 import A from "$lib/A.svelte";
+import P from "./P.svelte";
 import { base } from "$app/paths";
 </script>
 
@@ -10,18 +11,31 @@ import { base } from "$app/paths";
   </p>
   <nav
     aria-label="primary-navigation"
-    class="flex h-32 w-full flex-row flex-wrap justify-between">
-    <A href="{base}/">Home</A>
-    <A href="{base}/menu">Menu</A>
-    <A href="{base}/about-us">About us</A>
-    <A href="{base}/reviews">Reviews</A>
-    <A href="{base}/contact">Contact</A>
-    <A href="{base}/sassy-ducks">Sassy ducks</A>
+    class="flex h-32 flex-wrap justify-between  gap-2">
+    <A href="{base}/">
+      <P type="header">Home</P>
+    </A>
+    <A href="{base}/menu">
+      <P type="header">Menu</P>
+    </A>
+    <A href="{base}/about-us">
+      <P type="header">About us</P>
+    </A>
+    <A href="{base}/reviews">
+      <P type="header">Reviews</P>
+    </A>
+    <A href="{base}/contact">
+      <P type="header">Contact</P>
+    </A>
+    <A href="{base}/sassy-ducks">
+      <P type="header">Sassy ducks</P>
+    </A>
   </nav>
-  <div class="relative">
-    <small class="absolute bottom-0 right-0 pb-2 pr-2 text-right text-black dark:text-white">
+  <aside class="relative">
+    <small
+      class="absolute bottom-0 right-0 pb-0 pr-2 text-right text-black dark:text-white">
       &copy; Copyright 2022 Ankademin Cafe</small>
-  </div>
+  </aside>
 </footer>
 
 <style>

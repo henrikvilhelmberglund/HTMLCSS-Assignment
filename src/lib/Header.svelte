@@ -14,36 +14,29 @@ import P from "./P.svelte";
     aria-label="primary-navigation"
     class="flex flex-wrap justify-between gap-2">
     <AHeader href="{base}/">
-      <P
-        _class="relative bottom-1.5
-      md:bottom-3 md:p-0">
+      <P type="header">
         Home
       </P>
     </AHeader>
     <AHeader href="{base}/menu">
       <P
-        _class="relative bottom-1.5
-       md:bottom-3 md:p-0">Menu</P>
+      type="header">Menu</P>
     </AHeader>
     <AHeader href="{base}/about-us">
       <P
-        _class="relative bottom-1.5
-       md:bottom-3 md:p-0">About us</P>
+      type="header">About us</P>
     </AHeader>
     <AHeader href="{base}/reviews">
       <P
-        _class="relative bottom-1.5
-       md:bottom-3 md:p-0">Reviews</P>
+      type="header">Reviews</P>
     </AHeader>
     <AHeader href="{base}/contact">
       <P
-        _class="relative bottom-1.5
-       md:bottom-3 md:p-0">Contact</P>
+      type="header">Contact</P>
     </AHeader>
     <AHeader href="{base}/sassy-ducks">
       <P
-        _class="relative bottom-1.5
-      md:bottom-3 md:p-0">Sassy ducks</P>
+      type="header">Sassy ducks</P>
     </AHeader>
   </nav>
 </header>
