@@ -2,6 +2,74 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.10...v1.0.0) (2022-12-13)
+
+
+### Features
+
+* :fire: remove TODOs ([f572294](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f5722945b4174786c41663c1087b7c19896d0b86))
+* :sparkles: add scale transition in employees page ([e2ee234](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e2ee234cd907c2b114c173b2ba7fc14acda13062))
+* :sparkles: add section tags for sections (with headings) ([d1c3ce6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/d1c3ce69870125dc249534e241dd86f3abf74a41))
+* :sparkles: add svelte transition on dark mode change ([62af3e5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/62af3e5d8e4eab272829f49f51b9ba26bc343084))
+* :sparkles: now that it works, error page styling ([860e968](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/860e968460afd7caf844180f05e7edb01e7a0ad5))
+* :sparkles: replace big .jpg image with smaller .webp image ([cecf437](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/cecf43704208daa3a21a872d1ac8bd952299c0bd))
+* :sparkles: use SVGs instead of fonts for icons ([af2fa60](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/af2fa60e8535a979e23e797a134a79839c9c7474))
+* :sparkles: use Transition component in the custom review ([c9e6f44](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c9e6f4478b2ae421b9726bdf80bc14a270c46cbd))
+* **components:** :sparkles: add Star class to remove transition on click, change on:click to on:mousedown for snappier UI ([a69bf8f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/a69bf8f62460a39376c472e5c233cb27164c730f))
+* **components:** :sparkles: add Transition component that wraps the layout slot and provides transitions ([19a4877](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/19a4877d75d89d2f182a945d144f7e66a83283a5))
+* **components:** :sparkles: add transitions for Button ([6e37e57](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6e37e5783ba907063c4b3631e25d04dcc84a14ad))
+
+
+### Bug Fixes
+
+* :art: remove whitespace ([5f6bcee](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5f6bceecccad5e9648574ff463c195322d72439d))
+* :bento: move big files out of static folder ([0183b8a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0183b8ae0c574c822d7805d239782672de59a65d))
+* :bento: move wireframe out of the static folder ([42a4683](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/42a46830c3af08c07dd4e1bd9b897c31fd0795b7))
+* :bug: add default value of undefined to props to avoid console errors when they are not given ([fe359f2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/fe359f2bc469f5e241cf273af4aa506e67fe1ef8))
+* :bug: comment out object-src csp for debugging ([50ab87d](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/50ab87d7c4f7d5ef440bf84f12cb372e111d207b))
+* :bug: correct CSS paths ([786d62a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/786d62aa1f24b53f85aa3ab31ee32ce23f20b43e))
+* :bug: debugging ([0ee7f91](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0ee7f91dce803f71c916eb846d31008e46652ed6))
+* :bug: debugging 404 ([08ca898](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/08ca89806db4b5b115551ed4bfd3ba33b3919e4a))
+* :bug: debugging 404 ([45e44c7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/45e44c78c4e51959fb6bea8b30a144aeb7b54e8b))
+* :bug: debugging 404 ([5135416](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5135416e4049718c4fcd3c3d406e210b3e835edc))
+* :bug: debugging 404 ([cafc6a6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/cafc6a69a70eaa16083e08577a39273c67ff810e))
+* :bug: debugging 404 ([e10184e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e10184e44eb5e3955e8290047c62e91c4e895569))
+* :bug: debugging 404 ([f3b6071](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f3b6071f990571966b0bc9886a0d9c976dfabe9b))
+* :bug: debugging 404 ([71971b7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/71971b70302c18a5fe1b2f1a0c5d506a9a1ffd76))
+* :bug: debugging 404     does it work??? ([c150cbe](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c150cbefa3bb9de3563f8242d0341515fa2d4561))
+* :bug: disable transition for star ([0667827](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0667827f3ef46d839865d72125c58e7c49a4b7a2))
+* :bug: move back files because that method was broken (...) ([c030c6b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c030c6b28e3c04eaee3c675464d8f1bcb3afabb9))
+* :bug: move section tag to below h1 ([017d024](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/017d02423d2602171e34f638ee8145a9f224ce60))
+* :bug: put all routes inside of (main) which doesn't load the main layout in +error.svelte    (I think) ([90252a1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/90252a1ae56b19a878aa52886850239293438f8b))
+* :bug: replace favicon.ico with favicon.png ([972fc9c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/972fc9cf9d9e7e34097bfcf597325b5808fffa69))
+* :bug: try this (404 debugging) ([0baf84b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0baf84bd100a2c5c28742189a1951f2ff1d9b792))
+* :bug: use favicon.png in app.html ([cf458b2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/cf458b258bb2821bce806f438b244876c9532b36))
+* :fire: just kidding still broken 💦 ([c5694f0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/c5694f0e36bb817ea9307d7886c6839b97e30171))
+* :fire: remove extra slot, finished debugging yaaay ([3277bc1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3277bc1db4f1bc91f28fcbaba10b6fc51d785d3d))
+* :fire: remove random string in layout ([7c92e5b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7c92e5be3615d7321571873a250f4544b398fe5a))
+* :fire: remove unused font imports ([8eb76b6](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8eb76b6b78779a5b1477f460c1781b904f6aa388))
+* :fire: remove unused imports ([710f458](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/710f45838267024e1730379e35b8b486e01a903a))
+* :fire: remove unused store ([8c5ee51](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8c5ee51ead528d516208c87098009b2b89319858))
+* :iphone: slightly better desktop mode for thank you page ([803ebc7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/803ebc77a597c7de0945783eeaf681728ce8bac5))
+* :lipstick: add break-words for better display with long usernames ([dd349a4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/dd349a42a9b37c4be0776ca432ee010dfda3a5da))
+* :lipstick: fix 404 page styling ([f0d0979](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f0d097996203ada57cdb07f769390532843dc4ee))
+* :lipstick: fix flex in about us page ([5505bae](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5505baeebfe5462019af715cb02208a1e8e9a6c0))
+* :lipstick: minor styling fixes ([db3f9bc](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/db3f9bc81b05f30a64fd8eeeb6aac6dd4a5e6133))
+* :lipstick: style update for reviews page ([620d71a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/620d71a2f331ca8f9aad575c8752cf53290a67f2))
+* :wheelchair: fix various accessibility issues ([94282b5](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/94282b567a33fb335223c7aa0d999380ac1f967c))
+* :zap: add fixed image height/width to fix cls issues ([2dcb510](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/2dcb51055c5dbcbc853c8a525525afb3dc7d31f1))
+* :zap: see if this changes loading speed ([bcb886f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/bcb886f88392b3de20fd933fc8009f72541bd233))
+* change a ([608306f](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/608306f024ca87aeed16ed5b636bba2ccd7bfea2))
+* **components:** :bug: update mobile logo dimensions ([aaabc34](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/aaabc34aba66f43a2078f616f853cbcaf157bf34))
+* **components:** :iphone: make Motto look better on desktop ([77e4cea](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/77e4cea1193742a4f5d34b517e1f3d2a9e3195b0))
+* **components:** :iphone: smaller employee picture in md: ([3e036aa](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/3e036aabc19bb4dd84c46b48e44980324227c57c))
+* **components:** :lipstick: change bg-emerald-500 to bg-emerald-400 for Breadcrumbs ([4a9f5bc](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/4a9f5bcdc4bd56e5cb628a4f8034f2982b253a51))
+* **components:** :lipstick: display the Button (menu button clicked) in the middle of the screen ([0f221c8](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0f221c8b5513c1030318987fc6df2b461198e21c))
+* **components:** :lipstick: have footer links look like the header links in desktop, create new type in P ([444fe4a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/444fe4a5856ebe0b133f615577cc5e45eb323221))
+* **components:** :lipstick: minor style fixes ([77bcb8b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/77bcb8b207ec4ae1e3809d3aeca699f187e83e3a))
+* **components:** :lipstick: slightly tweak gradient color in Footer ([0a4b6ac](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/0a4b6ac51d3b876664f4b25dae74410b0af5ac34))
+* **components:** :white_check_mark: w3c validation ([9bbcffd](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9bbcffd036f05af3614d1fd37b50729819d140cf))
+
 ### [0.0.10](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.9...v0.0.10) (2022-12-12)
 
 
