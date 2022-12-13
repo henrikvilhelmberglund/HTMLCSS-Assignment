@@ -3,12 +3,10 @@ import P from "$lib/P.svelte";
 import Motto from "$lib/Motto.svelte";
 import ButtonA from "$lib/ButtonA.svelte";
 import { base } from "$app/paths";
-import { fly } from "svelte/transition";
 </script>
 
 <main
-  in:fly={{ y: -5, duration: 200, delay: 200 }}
-  out:fly={{ y: 5, duration: 200 }}
+ 
   class="flex flex-col items-center justify-between transition-all ">
   <picture>
     <source

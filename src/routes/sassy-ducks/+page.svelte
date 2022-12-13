@@ -1,6 +1,5 @@
 <script>
 import { base } from "$app/paths";
-import { fly } from "svelte/transition";
 let sassyDucks = [
   {
     name: "Old duck",
@@ -36,8 +35,7 @@ let sassyDucks = [
 </script>
 
 <main
-  in:fly={{ y: -5, duration: 200, delay: 200 }}
-  out:fly={{ y: 5, duration: 200 }}>
+  >
   <h1>Sassy Ducks</h1>
   <p>
     On this page we display photos of sassy ducks sent in by our customers.

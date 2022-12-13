@@ -1,12 +1,10 @@
 <script>
 import P from "$lib/P.svelte";
 import H from "$lib/H.svelte";
-import { fly } from "svelte/transition";
 </script>
 
 <main
-  in:fly={{ x: -5, duration: 200, delay: 200 }}
-  out:fly={{ x: 5, duration: 200 }}
+  
   class="flex h-[50vh] flex-col items-center justify-between">
   <H type="h1">Booking</H>
   <P type="menu" _class="w-full"

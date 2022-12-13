@@ -5,6 +5,7 @@ import { page } from "$app/stores";
 import Footer from "$lib/Footer.svelte";
 import Header from "$lib/Header.svelte";
 import Breadcrumbs from "$lib/Breadcrumbs.svelte";
+import Transition from "$lib/Transition.svelte";
 
 // fonts
 import "@fontsource/cherry-swash";
@@ -23,7 +24,10 @@ import "@fontsource/material-icons-rounded";
 
 <Header />
 <Breadcrumbs />
-
-<slot />
+{#key $page}
+  <Transition>
+    <slot />
+  </Transition>
+{/key}
 
 <Footer />

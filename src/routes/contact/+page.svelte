@@ -1,6 +1,5 @@
 <script>
 import { base } from "$app/paths";
-import { fly } from "svelte/transition";
 import H from "$lib/H.svelte";
 import P from "$lib/P.svelte";
 import Button from "$lib/Button.svelte";
@@ -8,8 +7,7 @@ import Button from "$lib/Button.svelte";
 
 <main
   class="flex flex-col items-center"
-  in:fly={{ y: -5, duration: 200, delay: 200 }}
-  out:fly={{ y: 5, duration: 200 }}>
+  >
   <H type="h1">Contact us</H>
   <section class="flex flex-col items-center">
     <H type="h2">Address and phone</H>
