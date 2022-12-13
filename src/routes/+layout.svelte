@@ -27,7 +27,7 @@ import "@fontsource/material-icons-rounded";
 {#key $page}
   <Transition>
     <slot />
-  </Transition> -->
+  </Transition>
 {/key}
 
 <Footer />
