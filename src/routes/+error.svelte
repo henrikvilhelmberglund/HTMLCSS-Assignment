@@ -5,6 +5,8 @@ import H from "$lib/H.svelte";
 import P from "$lib/P.svelte";
 </script>
 
+{$page.route.id}
+
 <main class="bg-emerald-200">
   <H type="h1" class="text-3xl">{$page.status}: {$page.error.message}</H>
 
