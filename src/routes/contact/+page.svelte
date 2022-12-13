@@ -17,7 +17,9 @@ import Button from "$lib/Button.svelte";
     <P type="contact" _class="w-full">Phone: 123-4567</P>
     <img
       src="{base}/images/ankademin-cafe/ankademin_cafe_entrance.webp"
-      alt="outside view of ankademin cafe building" />
+      alt="outside view of ankademin cafe building"
+      width="768"
+      height="512" />
   </section>
   <section class="flex flex-col items-center">
     <H type="h2">Leave feedback</H>
