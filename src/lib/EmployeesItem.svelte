@@ -17,7 +17,7 @@ import P from "./P.svelte";
     <img
       src="{base}{src}"
       {alt}
-      class="w-[80vw] rounded-3xl border-4 border-solid  border-black shadow-xl" />
+      class="w-[80vw] rounded-3xl border-4 border-solid border-black  shadow-xl md:w-[20vw]" />
   </figure>
   <P type="employee" _class="text-lg font-bold">{role}</P>
   <a
