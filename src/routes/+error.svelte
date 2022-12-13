@@ -4,7 +4,7 @@ import H from "$lib/H.svelte";
 import P from "$lib/P.svelte";
 </script>
 
-<main class="bg-emerald-700">
+<main class="bg-emerald-200">
   <H type="h1" class="text-3xl">{$page.status}: {$page.error.message}</H>
 
   <img src="/images/error.webp" alt="sad duck" width="512" height="512" />
