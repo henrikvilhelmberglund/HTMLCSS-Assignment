@@ -38,7 +38,7 @@ import { menuClicked } from "./stores.js";
         clicked = false;
         menuClicked.set(false);
       }}
-      class="relative right-16 top-14 flex-1">
+      class="relative right-16 top-14 flex-1 md:fixed md:top-0 md:bottom-0 md:right-0 md:left-0 ">
       <img
         on:click={() => {
           clicked = false;
@@ -50,7 +50,7 @@ import { menuClicked } from "./stores.js";
         }}
         {src}
         {alt}
-        class="z-100 absolute bottom-0 m-0 min-w-[100vw] p-0 md:-bottom-32 md:min-w-[45vw]" />
+        class="z-100 absolute bottom-0 m-0 min-w-[100vw] p-0 md:bottom-0 md:left-1/4 md:right-0 md:top-0  md:min-w-[45vw]" />
     </div>
   {/if}
   <button
