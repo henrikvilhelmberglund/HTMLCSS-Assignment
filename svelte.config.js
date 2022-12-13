@@ -16,13 +16,13 @@ const config = {
       precompress: false,
       strict: true,
     }),
-    csp: {
-      mode: "auto",
-      directives: {
-        "script-src": ["self"],
-        // "object-src": ["none"],
-      },
-    },
+    // csp: {
+    //   mode: "auto",
+    //   directives: {
+    //     "script-src": ["self"],
+    //     "object-src": ["none"],
+    //   },
+    // },
     paths: {
       base: dev ? "" : "/HTMLCSS-Assignment",
     },
