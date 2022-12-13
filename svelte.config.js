@@ -20,7 +20,7 @@ const config = {
       mode: "auto",
       directives: {
         "script-src": ["self"],
-        "object-src": ["none"],
+        // "object-src": ["none"],
       },
     },
     paths: {
