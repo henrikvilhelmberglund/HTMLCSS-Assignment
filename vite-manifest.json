@@ -31,14 +31,6 @@
     "file": "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2": {
-    "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-1a2694ac.woff2",
-    "src": "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff2"
-  },
-  "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2": {
-    "file": "_app/immutable/assets/material-icons-rounded-all-400-normal-91000ff3.woff2",
-    "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff2"
-  },
   "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff": {
     "file": "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
     "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
@@ -51,16 +43,8 @@
     "file": "_app/immutable/assets/nunito-all-400-normal-02df670f.woff",
     "src": "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff"
   },
-  "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff": {
-    "file": "_app/immutable/assets/material-icons-outlined-all-400-normal-63c23c91.woff",
-    "src": "node_modules/@fontsource/material-icons-outlined/files/material-icons-outlined-all-400-normal.woff"
-  },
-  "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff": {
-    "file": "_app/immutable/assets/material-icons-rounded-all-400-normal-8389baf3.woff",
-    "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
-  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-bd890aec.js",
+    "file": "_app/immutable/start-f5211a17.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -83,7 +67,7 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-96e47752.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-023c519b.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -95,7 +79,7 @@
       "_Transition-fa900ffa.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-7d05e16b.css"
+      "_app/immutable/assets/_layout-d0a441c3.css"
     ],
     "assets": [
       "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -108,11 +92,7 @@
       "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
       "_app/immutable/assets/nunito-vietnamese-400-normal-7ed3b3e7.woff2",
       "_app/immutable/assets/nunito-latin-ext-400-normal-a8aed46d.woff2",
-      "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
-      "_app/immutable/assets/material-icons-outlined-all-400-normal-1a2694ac.woff2",
-      "_app/immutable/assets/material-icons-outlined-all-400-normal-63c23c91.woff",
-      "_app/immutable/assets/material-icons-rounded-all-400-normal-91000ff3.woff2",
-      "_app/immutable/assets/material-icons-rounded-all-400-normal-8389baf3.woff"
+      "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2"
     ]
   },
   "src/routes/+error.svelte": {
@@ -426,7 +406,7 @@
     "file": "_app/immutable/chunks/_page-9e410535.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-9c4c2eba.js",
+    "file": "_app/immutable/chunks/0-f56766f0.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -528,7 +508,7 @@
     "src": "src/routes/sassy-ducks/+page.css"
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-7d05e16b.css",
+    "file": "_app/immutable/assets/_layout-d0a441c3.css",
     "src": "src/routes/+layout.css"
   }
 }
