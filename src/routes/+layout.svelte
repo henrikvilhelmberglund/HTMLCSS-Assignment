@@ -23,16 +23,12 @@ import "@fontsource/material-icons-rounded";
 </svelte:head>
 
 <Header />
-<!-- <Breadcrumbs /> -->
+<Breadcrumbs />
 <slot />
-<!-- {#if $page.route.id === null}
-  <slot />
-{:else}
-  {#key $page}
-    <Transition>
-      <slot />
-    </Transition>
-  {/key}
-{/if} -->
+{#key $page}
+  <Transition>
+    <slot />
+  </Transition> -->
+{/key}
 
 <Footer />

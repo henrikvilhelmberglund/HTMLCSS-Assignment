@@ -3,11 +3,17 @@ import { base } from "$app/paths";
 import { page } from "$app/stores";
 import DarkModeButton from "./DarkModeButton.svelte";
 import { darkStore } from "./stores.js";
+let route = false;
+try {
+  route = page.route.id;
+} catch (err) {
+  route = false;
+}
 </script>
 
 <!-- {base + "/"} -->
 <!-- {$page.url.pathname.split("/")} -->
-{#if $page.route.id !== null}
+{#if route}
   <nav
     aria-label="secondary-navigation"
     class="bg-gradient-to-b from-sky-200 to-emerald-200 py-2 text-black dark:bg-emerald-800 dark:from-sky-900 dark:to-emerald-800 dark:text-white">

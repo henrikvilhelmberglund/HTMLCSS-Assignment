@@ -3,15 +3,7 @@ import { base } from "$app/paths";
 import { page } from "$app/stores";
 import H from "$lib/H.svelte";
 import P from "$lib/P.svelte";
-let route = false;
-try {
-  route = page.route.id;
-} catch (err) {
-  route = false;
-}
 </script>
-
-{route}
 
 <main class="bg-emerald-200">
   <H type="h1" class="text-3xl">{$page.status}: {$page.error.message}</H>
