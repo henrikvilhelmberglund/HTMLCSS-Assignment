@@ -3,10 +3,11 @@ import { base } from "$app/paths";
 import { page } from "$app/stores";
 import H from "$lib/H.svelte";
 import P from "$lib/P.svelte";
+let route = false;
 try {
-  let route = page.route.id;
+  route = page.route.id;
 } catch (err) {
-  let route = false;
+  route = false;
 }
 </script>
 
