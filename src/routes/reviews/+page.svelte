@@ -62,7 +62,7 @@ let users = [
     {/each}
   </article>
 
-  <section class="w-32 flex-col p-4 md:flex md:w-64 md:flex-col">
+  <aside class="w-32 flex-col p-4 md:flex md:w-64 md:flex-col">
     <P _class="text-xl">Add a review! 👍</P>
     <StarButton bind:score={userScore} />
 
@@ -92,7 +92,7 @@ let users = [
       value="Delete local storage"
       class="m-1 cursor-pointer rounded-lg border-2 border-orange-700 bg-red-400 p-2 text-2xl
       font-thin transition-all hover:bg-red-300" />
-  </section>
+  </aside>
 </main>
 
 <style>
