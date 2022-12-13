@@ -2,9 +2,6 @@
 import "../app.scss";
 import "../app.postcss";
 import { page } from "$app/stores";
-import { base } from "$app/paths";
-import AHeader from "$lib/AHeader.svelte";
-import Logo from "$lib/Logo.svelte";
 import Footer from "$lib/Footer.svelte";
 import Header from "$lib/Header.svelte";
 import Breadcrumbs from "$lib/Breadcrumbs.svelte";
