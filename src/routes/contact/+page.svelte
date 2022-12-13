@@ -7,10 +7,11 @@ import Button from "$lib/Button.svelte";
 </script>
 
 <main
+  class="flex flex-col items-center"
   in:fly={{ y: -5, duration: 200, delay: 200 }}
   out:fly={{ y: 5, duration: 200 }}>
+  <H type="h1">Contact us</H>
   <section class="flex flex-col items-center">
-    <H type="h1">Contact us</H>
     <H type="h2">Address and phone</H>
     <P type="contact" _class="w-full">Address: Ankans väg 31, Ankholm</P>
     <P type="contact" _class="w-full">Phone: 123-4567</P>
