@@ -67,14 +67,14 @@ let users = [
   </article>
 
   <aside class="w-32 flex-col p-4 md:flex md:w-64 md:flex-col">
-    <P _class="text-xl">Add a review! 👍</P>
+    <P _class="text-xl  pb-4 w-48">Add a review! 👍</P>
     <StarButton bind:score={userScore} />
 
     <input
       type="text"
       id="username"
       placeholder="User name"
-      class="m-1"
+      class="m-1 mt-4"
       bind:value={userName} />
     <textarea
       bind:value={userDesc}
