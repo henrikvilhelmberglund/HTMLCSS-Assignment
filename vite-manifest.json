@@ -7,13 +7,13 @@
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
-    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-06d4e00e.js",
+    "file": "_app/immutable/start-00e9488d.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -83,7 +83,7 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-568c78dd.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-e9c4071e.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -94,7 +94,7 @@
       "_stores-8fdab04e.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-a5ba2506.css"
+      "_app/immutable/assets/_layout-46d193dd.css"
     ],
     "assets": [
       "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -420,7 +420,7 @@
     "file": "_app/immutable/chunks/_page-9e410535.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-4b8939f1.js",
+    "file": "_app/immutable/chunks/0-a888b825.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -518,7 +518,7 @@
     ]
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-a5ba2506.css",
+    "file": "_app/immutable/assets/_layout-46d193dd.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/sassy-ducks/+page.css": {
