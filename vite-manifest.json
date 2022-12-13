@@ -7,13 +7,13 @@
     "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
-    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
+    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
@@ -60,7 +60,7 @@
     "src": "node_modules/@fontsource/material-icons-rounded/files/material-icons-rounded-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-6f182cc9.js",
+    "file": "_app/immutable/start-06d4e00e.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -83,7 +83,7 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-c5a7a8c8.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-568c78dd.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -94,7 +94,7 @@
       "_stores-8fdab04e.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-9b142b24.css"
+      "_app/immutable/assets/_layout-a5ba2506.css"
     ],
     "assets": [
       "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
@@ -420,7 +420,7 @@
     "file": "_app/immutable/chunks/_page-9e410535.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-4372f2ef.js",
+    "file": "_app/immutable/chunks/0-4b8939f1.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -517,12 +517,12 @@
       "src/routes/sassy-ducks/+page.svelte"
     ]
   },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-a5ba2506.css",
+    "src": "src/routes/+layout.css"
+  },
   "src/routes/sassy-ducks/+page.css": {
     "file": "_app/immutable/assets/_page-0496bf28.css",
     "src": "src/routes/sassy-ducks/+page.css"
-  },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-9b142b24.css",
-    "src": "src/routes/+layout.css"
   }
 }
