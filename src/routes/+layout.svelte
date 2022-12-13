@@ -24,7 +24,8 @@ import "@fontsource/material-icons-rounded";
 
 <Header />
 <Breadcrumbs />
-{#if $page.route.id === null}
+<slot />
+<!-- {#if $page.route.id === null}
   <slot />
 {:else}
   {#key $page}
@@ -32,6 +33,6 @@ import "@fontsource/material-icons-rounded";
       <slot />
     </Transition>
   {/key}
-{/if}
+{/if} -->
 
 <Footer />
