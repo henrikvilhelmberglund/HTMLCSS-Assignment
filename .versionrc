@@ -1,7 +1,10 @@
 {
-  "commit-and-tag-version": {
-    "writerOpts": {
-      "commitsSort": false
+  "options": {
+    "preset": {
+      "name": "conventionalchangelog",
+      "writerOpts": {
+        "commitsSort": false
+      }
     }
   }
 }
