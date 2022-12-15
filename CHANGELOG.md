@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.0.0...v1.1.0) (2022-12-15)
+
+
+### Features
+
+* **slides:** :sparkles: add some slides for a presentation ([4e25814](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/4e2581484b9a945226f759633f853ddfa2376ffb))
+
+
+### Bug Fixes
+
+* :art: rename final report ([199e118](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/199e118bee018c739cae8d64b0ddcecbf977450e))
+* **slides:** :lipstick: minor changes for slides ([4ca21f2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/4ca21f254783b15435670524f3bd68bbc599231a))
+
 ## [1.0.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v0.0.10...v1.0.0) (2022-12-13)
 
 
