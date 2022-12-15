@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.2.0...v1.3.0) (2022-12-15)
+
+
+### Features
+
+* :sparkles: a test ([e9df8c9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e9df8c9aa1e5ec150509f4f097db259f7c7172ab))
+* :sparkles: test ([81552c3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/81552c367a8099e82a06e253b78725cd92a280d5))
+
 ## [1.2.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.1...v1.2.0) (2022-12-15)
 
 
