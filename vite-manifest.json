@@ -11,13 +11,13 @@
     "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
     "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
-    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-400-normal-ce5142e3.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
+    "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/nunito/files/nunito-vietnamese-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-vietnamese-400-normal-7ed3b3e7.woff2",
