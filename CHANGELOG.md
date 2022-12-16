@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.0...v1.2.0) (2022-12-16)
+
+
+### Features
+
+* :sparkles: zzz this should be at the top ([9d3326a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9d3326ac271f3afc4b8313f93ff3523ff9dd2ac4))
+* :sparkles: move config to .versionrc ([f090cea](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f090ceae20720fda6cf9dd9631bd79bdfd837a25))
+* :sparkles: add writerOpts config in package.json for recent commits at the top ([f5685fd](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f5685fd5218de26c276d1b178fa358b445745fd5))
+* :sparkles: test ([7d313ec](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7d313ecf06890afc62eff6d8fa1a8f2c5db66549))
+* :sparkles: a test ([9857023](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/9857023306e7469018d6a261abc934130a9a58d7))
+* :sparkles: test ([49e056a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/49e056aa7a8c3de9d97d3b1a60ca0b7ff454e1f1))
+* :sparkles: a test ([875c7e4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/875c7e4ed89f3fdc786e451886a97e3431975f73))
+* :sparkles: test ([abccdf4](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/abccdf4ced5decea904f2622d9b0b22d94a0515d))
+* :sparkles: a test ([550fe4c](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/550fe4ca2702d2fc0b2b041abf370d1231f86841))
+* :sparkles: test ([7a0e9ba](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7a0e9ba6cc0083ed8cd8e5748e1ae8fc3747de60))
+* :sparkles: a test ([227a932](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/227a932f03bcdba808838229b9ae0e9396ea6192))
+* :sparkles: a test ([e9df8c9](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/e9df8c9aa1e5ec150509f4f097db259f7c7172ab))
+* :sparkles: test ([81552c3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/81552c367a8099e82a06e253b78725cd92a280d5))
+* :sparkles: add .versionrc ([b3e0f67](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b3e0f67424d2ef4d80b8aa5b66426c6ae6992c85))
+* :package: add dev dependency version of commit-and-tag-version ([651a1cd](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/651a1cdef6e2ec6f910b4c35673e94a9c67f45e7))
+
+
+### Bug Fixes
+
+* :bug: fix version ([51403d0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/51403d0b5d5a190c1106f5c1779793f0d86696cb))
+* :bug: push changelog (had local tag already which screwed things up) ([7bc6973](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/7bc69739d0a65ce4e6dcfb89ddcfba897e51faaa))
+* :bug: edit version again ([399d40b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/399d40b5a3f7c54f9ae1e5b4ce6f6f2c77033cd7))
+* :bug: hopefully this won't break too much ([6a3b4be](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6a3b4be209c7084a13b2b398e918828ad9256b83))
+* :ambulance: zzz some more ([5b25f2a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5b25f2a9a7b730e4beb74e5da9a51b9adc33f9c5))
+* :ambulance: fix changelog? who knows? ([8dc6c9e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8dc6c9efe74a483074511afaab7b526a87081c17))
+* :ambulance: fix changelog (maybe) ([885c960](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/885c960e682037aa670edfaa741bc6747156c168))
+* :bug: change back .versionrc ([4ca09f7](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/4ca09f7a2a4d1cb35e0f07090dd26e48ecab2571))
+
 ### [1.1.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.0.0...v1.1.0) (2022-12-15)
 
 
