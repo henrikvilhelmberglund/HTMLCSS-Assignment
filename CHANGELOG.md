@@ -2,23 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
-### [1.8.1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.8.0...v1.8.1) (2022-12-16)
-
 
 ### Bug Fixes
 
 * :ambulance: fix changelog (maybe) ([885c960](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/885c960e682037aa670edfaa741bc6747156c168))
 
-## [1.1.2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.6.0...v1.7.0) (2022-12-16)
+### [1.1.2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.1...v1.1.2) (2022-12-16)
+
+### Bug Fixes
+
+* :sparkles: add writerOpts config in package.json for recent commits at the top ([f5685fd](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/f5685fd5218de26c276d1b178fa358b445745fd5))
+
+### [1.1.1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.0...v1.1.1) (2022-12-15)
 
 ### Features
 
 * :package: add dev dependency version of commit-and-tag-version ([651a1cd](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/651a1cdef6e2ec6f910b4c35673e94a9c67f45e7))
 * :sparkles: add .versionrc ([b3e0f67](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/b3e0f67424d2ef4d80b8aa5b66426c6ae6992c85))
 
-### [1.1.1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.0...v1.1.1) (2022-12-15)
 
-## [1.1.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.0.0...v1.1.0) (2022-12-15)
+### [1.1.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.0.0...v1.1.0) (2022-12-15)
 
 
 ### Features
