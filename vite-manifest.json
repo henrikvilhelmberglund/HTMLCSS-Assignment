@@ -3,14 +3,6 @@
     "file": "_app/immutable/assets/cherry-swash-latin-400-normal-e6c35eb6.woff2",
     "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
-    "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
-  },
-  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
-    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/nunito-cyrillic-ext-400-normal-29a4d00e.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2"
@@ -31,17 +23,25 @@
     "file": "_app/immutable/assets/nunito-latin-400-normal-5e2f97ea.woff2",
     "src": "node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2"
   },
+  "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/spartan-latin-ext-400-normal-df41a9e2.woff2",
+    "src": "node_modules/@fontsource/spartan/files/spartan-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/spartan-latin-400-normal-44102983.woff2",
+    "src": "node_modules/@fontsource/spartan/files/spartan-latin-400-normal.woff2"
+  },
   "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff": {
     "file": "_app/immutable/assets/cherry-swash-all-400-normal-f01280fa.woff",
     "src": "node_modules/@fontsource/cherry-swash/files/cherry-swash-all-400-normal.woff"
   },
-  "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff": {
-    "file": "_app/immutable/assets/spartan-all-400-normal-a877da60.woff",
-    "src": "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff"
-  },
   "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff": {
     "file": "_app/immutable/assets/nunito-all-400-normal-02df670f.woff",
     "src": "node_modules/@fontsource/nunito/files/nunito-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff": {
+    "file": "_app/immutable/assets/spartan-all-400-normal-a877da60.woff",
+    "src": "node_modules/@fontsource/spartan/files/spartan-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
     "file": "_app/immutable/start-e1300414.js",
