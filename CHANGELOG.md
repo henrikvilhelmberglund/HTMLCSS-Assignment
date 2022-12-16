@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.8.2](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.8.1...v1.8.2) (2022-12-16)
+
+
+### Bug Fixes
+
+* :ambulance: zzz some more ([5b25f2a](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/5b25f2a9a7b730e4beb74e5da9a51b9adc33f9c5))
+* :ambulance: fix changelog? who knows? ([8dc6c9e](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/8dc6c9efe74a483074511afaab7b526a87081c17))
+
 ### [1.1.3](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.2...v1.1.3) (2022-12-16)
 
 ### Bug Fixes
