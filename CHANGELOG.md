@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
-## [1.2.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.8.2...v1.2.0) (2022-12-16)
+## [1.2.0](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.1...v1.2.0) (2022-12-16)
 
 
 ### Features
@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file. See [commit
 * :bug: edit version again ([399d40b](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/399d40b5a3f7c54f9ae1e5b4ce6f6f2c77033cd7))
 * :bug: hopefully this won't break too much ([6a3b4be](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/commit/6a3b4be209c7084a13b2b398e918828ad9256b83))
 
-### [1.1.1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.8.2...v1.1.1) (2022-12-16)
+### [1.1.1](https://github.com/henrikvilhelmberglund/HTMLCSS-Assignment/compare/v1.1.0...v1.1.1) (2022-12-16)
 
 
 ### Bug Fixes
